@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.">
+<meta property="og:site_name" content="PortraitRaw">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PortraitRaw · Daily photography news">
+<meta property="og:description" content="Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.">
+<meta property="og:url" content="https://portraitraw.com/">
+<meta property="og:image" content="https://portraitraw.com/og/portraitraw.jpg">
+<meta property="og:image:secure_url" content="https://portraitraw.com/og/portraitraw.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PortraitRaw · Daily photography news">
+<meta name="twitter:description" content="Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.">
+<meta name="twitter:image" content="https://portraitraw.com/og/portraitraw.jpg">
+<link rel="icon" href="/og/icon.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"PortraitRaw","url":"https://portraitraw.com/","logo":"https://portraitraw.com/og/icon.png","address":{"@type":"PostalAddress","streetAddress":"One Maritime Plaza, 300 Clay St, Suite 455","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94111","addressCountry":"US"}}</script>
+<title>PortraitRaw</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+/* Layout: a bright photo magazine. Frosted header, a rounded cinematic slideshow, headline-on-image cover cards, then a clean headline feed beside a soft sidebar. */
+:root{
+  --bg:#F3F1EE; --card:#FFFFFF; --ink:#17161A; --mute:#6D6A70; --line:#E6E2DC; --accent:#F0532D; --accent2:#F59E2E; --glass:rgba(243,241,238,.82); --night:#151417;
+  --head:"Plus Jakarta Sans","Helvetica Neue",Arial,sans-serif;
+  --read:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --r:16px; --shadow:0 1px 2px rgba(23,22,26,.05),0 10px 30px -12px rgba(23,22,26,.18);
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F0F11;--card:#19191C;--ink:#F0EEEA;--mute:#A09DA4;--line:#2A2A2E;--accent:#FF6A45;--accent2:#FFB04A;--glass:rgba(15,15,17,.78);--night:#0A0A0B;--shadow:0 1px 2px rgba(0,0,0,.3),0 12px 34px -14px rgba(0,0,0,.7);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F0F11;--card:#19191C;--ink:#F0EEEA;--mute:#A09DA4;--line:#2A2A2E;--accent:#FF6A45;--accent2:#FFB04A;--glass:rgba(15,15,17,.78);--night:#0A0A0B;--shadow:0 1px 2px rgba(0,0,0,.3),0 12px 34px -14px rgba(0,0,0,.7);color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.55 var(--head)}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+h1,h2,h3,h4{text-wrap:balance}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.grad{background:linear-gradient(100deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* header */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--glass);-webkit-backdrop-filter:saturate(1.6) blur(14px);backdrop-filter:saturate(1.6) blur(14px);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:21;background:var(--bg)}
+.bar .wrap{display:flex;align-items:center;gap:24px;min-height:70px}
+.logo{font:800 25px/1 var(--head);letter-spacing:-.035em;white-space:nowrap;display:inline-flex;align-items:center;gap:10px}
+.logo i{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--accent),var(--accent2));position:relative;box-shadow:0 6px 16px -6px var(--accent)}
+.logo i:after{content:"";position:absolute;inset:8px;border-radius:50%;border:2.5px solid #fff}
+.logo em{font-style:normal}
+.logo .mark{width:34px;height:34px;flex:0 0 auto;transition:transform .8s cubic-bezier(.2,.8,.2,1);filter:drop-shadow(0 6px 14px rgba(240,83,45,.35))}
+.logo:hover .mark{transform:rotate(60deg)}
+.logo .wm{display:inline-flex;align-items:center;gap:7px;font:800 25px/1 var(--head);letter-spacing:-.035em}
+.logo .raw{font:800 11px/1 var(--head);letter-spacing:.14em;padding:5px 6px 4px;border-radius:5px;border:1.5px solid currentColor;transform:translateY(-1px)}
+footer .logo .raw{color:#fff}
+@media (prefers-reduced-motion:reduce){.logo .mark{transition:none}}
+
+nav.main{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;flex:1;min-width:0;justify-content:center}
+nav.main::-webkit-scrollbar{display:none}
+nav.main a{font:600 14.5px/1 var(--head);padding:11px 16px;white-space:nowrap;color:var(--mute);border-radius:999px;transition:background .25s,color .25s}
+nav.main a:hover{color:var(--ink);background:var(--card)}
+nav.main a.on{color:#fff;background:var(--ink)}
+:root[data-theme="dark"] nav.main a.on{color:var(--night);background:var(--ink)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) nav.main a.on{color:var(--night)}}
+.tools{display:flex;gap:8px;align-items:center}
+.ib{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;border-radius:50%;transition:transform .2s}
+.ib:hover{transform:translateY(-1px)}
+.ib svg{width:17px;height:17px}
+.pill{font:700 14px/1 var(--head);padding:13px 18px;border-radius:999px;color:#fff;background:linear-gradient(100deg,var(--accent),var(--accent2));white-space:nowrap;box-shadow:0 8px 20px -10px var(--accent)}
+.pill:hover{filter:brightness(1.06)}
+@media (max-width:900px){.bar .wrap{flex-wrap:wrap;gap:0 10px;padding-block:12px 10px}.logo{flex:1}nav.main{order:3;flex-basis:100%;justify-content:flex-start;margin-top:10px}.pill{display:none}}
+
+/* slideshow */
+.show{position:relative;aspect-ratio:1000/460;max-height:620px;width:100%;background:#0E0E0E;overflow:hidden;color:#fff;margin-top:26px;border-radius:24px;box-shadow:var(--shadow);isolation:isolate}
+.slide{position:absolute;inset:0;visibility:hidden}
+.slide.on,.slide.out{visibility:visible}
+.slide.on{z-index:2}.slide.out{z-index:1}
+.slide img{width:100%;height:100%;object-fit:cover}
+.slide:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,8,10,.82),rgba(8,8,10,.2) 50%,rgba(8,8,10,0) 75%)}
+.cap{position:absolute;z-index:3;left:0;right:0;bottom:0;padding:0 clamp(20px,3.4vw,44px) clamp(22px,3.4vw,40px)}
+.cap .in{max-width:780px}
+.kick{display:inline-block;font:700 12px/1 var(--head);letter-spacing:.06em;text-transform:uppercase;color:#fff;background:rgba(255,255,255,.16);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.25);padding:8px 12px;border-radius:999px}
+.cap h2{margin:16px 0 0;font:800 clamp(28px,4vw,52px)/1.04 var(--head);letter-spacing:-.035em}
+.cap p{display:none}
+.cap .t{opacity:0;transform:translateY(14px);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1)}
+.cap.live .t{opacity:1;transform:none}
+.cap.live .t:nth-child(2){transition-delay:.08s}
+.ctrl{position:absolute;z-index:4;right:clamp(16px,2.6vw,32px);bottom:clamp(22px,3.4vw,40px);display:flex;gap:8px;align-items:center}
+.dots{display:flex;gap:6px;margin-right:8px}
+.dots button{width:30px;height:4px;border:0;padding:0;background:rgba(255,255,255,.3);cursor:pointer;position:relative;overflow:hidden;border-radius:4px}
+.dots button i{position:absolute;inset:0;background:#fff;transform-origin:0 50%;transform:scaleX(0)}
+.dots button.done i{transform:scaleX(1)}
+.arw{width:44px;height:44px;border:1px solid rgba(255,255,255,.3);border-radius:50%;background:rgba(255,255,255,.12);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:#fff;cursor:pointer;display:grid;place-items:center;transition:background .25s}
+.arw:hover{background:rgba(255,255,255,.3)}
+.arw svg{width:16px;height:16px}
+.credit{position:absolute;z-index:4;left:clamp(16px,2.6vw,32px);top:clamp(16px,2.6vw,26px);font:600 11px var(--head);letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.85)}
+@media (max-width:760px){.show{aspect-ratio:4/5;max-height:none;border-radius:18px}.ctrl{top:14px;bottom:auto;right:14px}.dots{display:none}.credit{display:none}}
+
+/* shared */
+.th{position:relative;overflow:hidden;background:#1C1B1F;aspect-ratio:16/10;max-width:100%;border-radius:var(--r)}
+.th img,.th svg{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+a:hover .th img,a:hover .th svg{transform:scale(1.05)}
+.cat{font:700 12px/1 var(--head);letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.meta{font:500 13px/1.4 var(--head);color:var(--mute);display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
+h3{transition:color .2s}
+a:hover h3{color:var(--accent)}
+
+/* cover cards: headline on image */
+.six{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding-block:24px 8px}
+.tc{position:relative;display:block;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.tc:hover{transform:translateY(-3px)}
+.tc .th{aspect-ratio:4/3;border-radius:0}
+.tc:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(8,8,10,.86),rgba(8,8,10,.25) 48%,rgba(8,8,10,0) 70%);pointer-events:none}
+.tc h3{position:absolute;z-index:2;left:20px;right:20px;bottom:18px;margin:0;color:#fff;font:700 20px/1.22 var(--head);letter-spacing:-.02em;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+.tc:hover h3{color:#fff}
+.tc .cat{display:none}
+.tc p{display:none}
+@media (max-width:1000px){.six{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.six{grid-template-columns:1fr}}
+
+/* feed + sidebar */
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:44px;padding-block:44px 20px;align-items:start}
+.hd{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin:0 0 20px}
+.hd h2{margin:0;font:800 28px/1 var(--head);letter-spacing:-.035em;white-space:nowrap}
+.hd a{font:600 14px var(--head);color:var(--mute);white-space:nowrap}
+.hd a:hover{color:var(--accent)}
+.feed{background:var(--card);border-radius:22px;padding:26px;box-shadow:var(--shadow)}
+.fi{display:grid;grid-template-columns:200px minmax(0,1fr);gap:22px;align-items:center;padding:16px 0;border-top:1px solid var(--line)}
+.fi:first-of-type{border-top:0;padding-top:0}
+.fi .th{aspect-ratio:3/2;border-radius:12px}
+.fi h3{margin:0;font:700 21px/1.25 var(--head);letter-spacing:-.02em}
+.fi .meta,.fi p{display:none}
+.fi.big{grid-template-columns:1fr;gap:16px;padding-bottom:22px}
+.moreRow{display:flex;justify-content:center;padding:22px 0 4px;border-top:1px solid var(--line)}
+.moreBtn{font:700 14px var(--head);padding:12px 22px;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.moreBtn:hover{border-color:var(--accent);color:var(--accent)}
+.moreEnd{font:600 13px var(--head);color:var(--mute)}
+.fi.big .th{aspect-ratio:16/8.4;border-radius:16px}
+.fi.big h3{font-size:clamp(25px,2.7vw,34px);line-height:1.12;letter-spacing:-.035em}
+@media (max-width:720px){.feed{padding:16px;border-radius:18px}.fi{grid-template-columns:120px minmax(0,1fr);gap:14px}.fi h3{font-size:17px}}
+
+aside .blk{background:var(--card);border-radius:22px;padding:22px;box-shadow:var(--shadow);margin-bottom:22px}
+aside .hd h2{font-size:22px}
+.qs{display:grid;grid-template-columns:minmax(0,1fr) 78px;gap:14px;align-items:center;padding:12px 0;border-top:1px solid var(--line)}
+.qs:first-of-type{border-top:0;padding-top:0}
+.qs b{display:block;font:700 15px/1.32 var(--head);letter-spacing:-.01em}
+.qs small{display:none}
+.qs .th{aspect-ratio:1;border-radius:12px}
+.qs:hover b{color:var(--accent)}
+.member{background:linear-gradient(140deg,var(--night),#2A1A16) !important;color:#F4F1EC}
+.member h3{margin:0 0 8px;font:800 22px/1.15 var(--head);letter-spacing:-.02em}
+.member p{margin:0 0 16px;color:#C9C3BD;font-size:15px}
+.member .row{display:flex;flex-direction:column;gap:8px}
+.member input{padding:13px 15px;font:inherit;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.07);color:#F4F1EC;border-radius:12px}
+.btn{background:linear-gradient(100deg,var(--accent),var(--accent2));color:#fff;border:0;padding:14px 20px;font:700 14.5px var(--head);cursor:pointer;border-radius:12px}
+.btn:hover{filter:brightness(1.06)}
+.msg{margin-top:10px;font-size:14px}
+.fotd img{width:100%;aspect-ratio:4/3;object-fit:cover;cursor:zoom-in;border-radius:14px}
+.fotd h4{margin:14px 0 4px;font:700 18px/1.25 var(--head)}
+.fotd p{margin:0;color:var(--mute);font-size:14.5px}
+.fotd .cr{font:500 12.5px var(--head);color:var(--mute);margin-top:8px}
+.ev{padding:12px 0;border-top:1px solid var(--line)}
+.ev:first-of-type{border-top:0;padding-top:0}
+.ev b{display:block;font:700 15px/1.3 var(--head)}
+.ev small{display:block;font-size:13px;color:var(--mute);margin-top:3px}
+.st{display:inline-block;margin-top:7px;font:700 11px var(--head);letter-spacing:.04em;text-transform:uppercase;padding:4px 8px;border-radius:999px;background:var(--bg)}
+.st.soon{color:var(--accent)}.st.new{color:#23895A}.st.open{color:var(--mute)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .st.new{color:#5BC48A}}
+:root[data-theme="dark"] .st.new{color:#5BC48A}
+@media (max-width:1000px){.cols{grid-template-columns:1fr}}
+
+/* topic blocks */
+.topics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding-block:22px 64px}
+.tb{background:var(--card);border-radius:22px;padding:22px;box-shadow:var(--shadow)}
+.tb .hd h2{font-size:22px}
+.tb .it{display:block;padding:12px 0;border-top:1px solid var(--line)}
+.tb .it:first-of-type{border-top:0;padding-top:0}
+.tb .it h3{margin:12px 0 0;font:700 17.5px/1.28 var(--head);letter-spacing:-.01em}
+.tb .it.sm{display:grid;grid-template-columns:84px minmax(0,1fr);gap:12px;align-items:center}
+.tb .it.sm .th{aspect-ratio:1;border-radius:10px}
+.tb .it.sm h3{margin:0;font-size:15px}
+@media (max-width:900px){.topics{grid-template-columns:1fr}}
+
+/* pages */
+.pagehead{padding-block:40px 6px}
+.pagehead h1{margin:10px 0 8px;font:800 clamp(34px,5vw,56px)/1.02 var(--head);letter-spacing:-.04em}
+.pagehead p{margin:0;color:var(--mute);max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:22px;padding-block:26px 70px}
+.empty{color:var(--mute)}
+
+/* article */
+.acols{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:48px;padding-block:36px 72px;align-items:start}
+.ahead h1{margin:14px 0 16px;font:800 clamp(32px,4.6vw,54px)/1.04 var(--head);letter-spacing:-.04em}
+.ahead .dek{margin:0 0 20px;font:400 21px/1.5 var(--read);color:var(--mute)}
+.by{display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:0 0 22px;font:500 14px var(--head);color:var(--mute)}
+.by .av{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;display:grid;place-items:center;font:800 13px var(--head)}
+.by b{color:var(--ink);font-weight:700}
+.hero{margin:0 0 30px}
+.hero .th{aspect-ratio:16/9;border-radius:22px;box-shadow:var(--shadow)}
+.hero img{cursor:zoom-in}
+.hero figcaption{font:500 13px var(--head);color:var(--mute);padding-top:10px}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin:0 0 30px}
+.specs span{background:var(--card);border-radius:14px;padding:14px 16px;font:800 18px/1.2 var(--head);font-variant-numeric:tabular-nums;box-shadow:var(--shadow)}
+.specs small{display:block;font:600 11px var(--head);letter-spacing:.05em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.by .shr{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+.shb{display:inline-flex;align-items:center;gap:6px;font:600 13px var(--head);padding:8px 13px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);text-decoration:none;cursor:pointer}
+.shb.wa{background:#25D366;border-color:#25D366;color:#fff}
+.shb:hover{filter:brightness(.95)}
+.abody{max-width:720px}
+.abody p{font:400 19px/1.78 var(--read);margin:0 0 22px}
+.abody p .quote{display:block;border-left:4px solid var(--accent);padding:6px 0 6px 20px;font-style:italic;color:var(--ink)}
+.abody .inl{margin:30px 0}
+.abody .inl button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+.abody .inl img{width:100%;height:auto;display:block}
+.abody .inl figcaption{font:500 13px var(--head);color:var(--mute);padding-top:9px}
+.take{background:var(--card);border-radius:18px;padding:22px 24px;margin:32px 0;box-shadow:var(--shadow);border-left:4px solid var(--accent)}
+.take b{display:block;font:800 12px var(--head);letter-spacing:.06em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.take p{margin:0 !important;font:600 19px/1.5 var(--read) !important}
+.galh{font:800 22px var(--head);letter-spacing:-.02em;margin:36px 0 14px}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.gal figure{margin:0}
+.gal button{display:block;width:100%;padding:0;border:0;background:#1C1B1F;cursor:zoom-in;aspect-ratio:4/5;overflow:hidden;border-radius:14px}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.gal button:hover img{transform:scale(1.05)}
+.gal figcaption{font-size:13px;line-height:1.4;color:var(--mute);padding-top:7px}
+.src{font:400 14px/1.6 var(--head);color:var(--mute);border-top:1px solid var(--line);padding-top:16px;margin-top:34px}
+.src a{text-decoration:underline;text-underline-offset:3px}
+.back{display:inline-block;font:600 14px var(--head);color:var(--mute);margin-bottom:6px}.back:hover{color:var(--accent)}
+@media (max-width:1000px){.acols{grid-template-columns:1fr}}
+@media (max-width:600px){.abody p{font-size:17.5px}.ahead .dek{font-size:18px}}
+
+/* forms */
+.ct{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:28px;padding-block:20px 72px}
+.ct>div,.ct form{background:var(--card);border-radius:22px;padding:28px;box-shadow:var(--shadow)}
+.ct.one{grid-template-columns:minmax(0,680px);justify-content:center}
+.ct .addr{display:flex;gap:14px;align-items:flex-start;font:500 15px/1.55 var(--head)}.ct .addr>div{flex:none}.ct .map{position:relative;flex:1;min-width:0;align-self:stretch;min-height:170px;margin-left:auto;border-radius:16px;overflow:hidden;border:1px solid var(--line);display:block;background:var(--line)}.ct .mapfb{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;font:600 13px var(--head);color:var(--mute);background:repeating-linear-gradient(0deg,transparent 0 23px,rgba(127,127,127,.12) 23px 24px),repeating-linear-gradient(90deg,transparent 0 23px,rgba(127,127,127,.12) 23px 24px)}.ct .mapfb svg{color:var(--accent)}.ct .map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;pointer-events:none}.ct .mapcta{position:absolute;right:10px;bottom:10px;background:var(--card);color:var(--ink);font:600 12px var(--head);padding:6px 10px;border-radius:999px;box-shadow:var(--shadow)}.ct .map:hover .mapcta{background:var(--accent);color:#fff}@media (max-width:520px){.ct .addr{flex-wrap:wrap}.ct .map{flex-basis:100%;min-height:190px;margin-left:0}}.ct .addr svg{color:var(--accent);flex:none;margin-top:2px}.ct .addr b{display:block;margin-bottom:4px}.ct .addr address{font-style:normal;color:var(--mute)}
+.crow{padding:14px 0;border-top:1px solid var(--line)}
+.crow:first-child{border-top:0;padding-top:0}
+.crow small{display:block;font:600 12px var(--head);letter-spacing:.05em;text-transform:uppercase;color:var(--mute)}
+.crow span{font:700 18px var(--head);user-select:all}
+.fg{margin-bottom:18px}
+.fg label{display:block;font:700 13px var(--head);margin-bottom:7px}
+.fg input,.fg textarea,.sbox input,.subbox input{width:100%;padding:14px 16px;font:inherit;font-size:16px;background:var(--bg);color:var(--ink);border:1px solid var(--line);border-radius:12px}
+.fg textarea{min-height:140px;resize:vertical}
+.fg input:focus,.fg textarea:focus,.sbox input:focus,.subbox input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 4px rgba(240,83,45,.14)}
+.fg.bad input,.fg.bad textarea{border-color:var(--accent)}
+.fg .er2{display:none;color:var(--accent);font-size:13px;margin-top:5px}
+.fg.bad .er2{display:block}
+.ok{display:none;margin-top:16px;padding:14px 16px;background:var(--bg);border-radius:12px;line-height:1.5}
+.ok.on{display:block}.ok a{text-decoration:underline}
+.sbox{padding-block:12px 0}
+.sbox input{font-size:20px;padding:18px 20px;border-radius:16px;background:var(--card);box-shadow:var(--shadow)}
+.subbox{max-width:580px;padding-block:12px 72px}
+.subbox ul{padding-left:20px;margin:0 0 22px}
+.subbox .row{display:flex;gap:8px;flex-wrap:wrap}.subbox input{flex:1 1 220px;width:auto}
+@media (max-width:820px){.ct{grid-template-columns:1fr}}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(8,8,10,.94);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:max(24px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));opacity:0;transition:opacity .3s;cursor:zoom-out}
+.lb.on{opacity:1}
+.lb img{max-width:100%;max-height:calc(100vh - 130px);object-fit:contain;border-radius:12px;transform:scale(.97);transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.lb.on img{transform:none}
+.lb p{margin:0;color:#DDD;font:500 14px/1.5 var(--head);text-align:center;max-width:70ch}
+.lb button{position:absolute;top:max(16px,env(safe-area-inset-top,0px));right:max(16px,env(safe-area-inset-right,0px));background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);color:#eee;font:700 13px var(--head);padding:10px 15px;cursor:pointer;border-radius:999px}
+html.lock{overflow:hidden}
+
+footer{background:var(--night);color:#B9B5B0;margin-top:10px}
+footer .wrap{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(2,minmax(0,1fr));gap:32px;padding-block:52px 32px}
+footer .logo{color:#fff;font-size:24px}
+footer p{margin:14px 0 0;font-size:14.5px;max-width:40ch}
+footer h4{margin:0 0 12px;color:#fff;font:700 13px var(--head);letter-spacing:.05em;text-transform:uppercase}
+footer nav a{display:block;font-size:14.5px;padding:4px 0}
+footer nav a:hover{color:#fff}
+footer .legal{grid-column:1/-1;border-top:1px solid #2A2A2E;padding-top:18px;font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media (max-width:700px){footer .wrap{grid-template-columns:1fr 1fr}footer .wrap>div:first-child{grid-column:1/-1}}
+@media (prefers-reduced-motion:reduce){.cap .t,.th img,.th svg,.gal img,.lb,.lb img,.tc{transition:none}}
+</style>
+</head>
+<body>
+<noscript><p><a href="stories.html">All PortraitRaw stories</a></p></noscript>
+
+
+<header class="bar"><div class="wrap">
+  <a class="logo" href="#/" aria-label="PortraitRaw, home"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0532D"/><stop offset="1" stop-color="#F59E2E"/></linearGradient></defs><circle cx="16" cy="16" r="15" fill="url(#lg0)"/><circle cx="16" cy="16" r="13.2" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="1.4"/><path d="M7.51 5.90L20.50 13.40M20.50 3.59L20.50 18.60M29.00 13.70L16.00 21.20M24.49 26.10L11.50 18.60M11.50 28.41L11.50 13.40M3.00 18.30L16.00 10.80" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none"/><circle cx="16" cy="16" r="3" fill="#fff" fill-opacity=".95"/></svg><span class="wm">Portrait<b class="raw">RAW</b></span></a>
+  <nav class="main" aria-label="Sections"><a href="#/">News</a><a href="#/cat/awards">Awards</a><a href="#/cat/exhibitions">Exhibitions</a><a href="#/cat/people">Photographers</a><a href="#/cat/cameras">Cameras</a><a href="#/cat/lenses">Lenses</a></nav>
+  <div class="tools">
+    <a class="ib" href="#/search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+    <a class="pill" href="#/subscribe">Newsletter</a>
+    <button class="ib" id="theme" type="button" aria-label="Switch to dark mode"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg></button>
+  </div>
+</div></header>
+
+<main id="home"></main>
+<main id="view" hidden></main>
+
+<footer><div class="wrap">
+  <div><a class="logo" href="#/"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F0532D"/><stop offset="1" stop-color="#F59E2E"/></linearGradient></defs><circle cx="16" cy="16" r="15" fill="url(#lg1)"/><circle cx="16" cy="16" r="13.2" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="1.4"/><path d="M7.51 5.90L20.50 13.40M20.50 3.59L20.50 18.60M29.00 13.70L16.00 21.20M24.49 26.10L11.50 18.60M11.50 28.41L11.50 13.40M3.00 18.30L16.00 10.80" stroke="#fff" stroke-width="1.4" stroke-linecap="round" fill="none"/><circle cx="16" cy="16" r="3" fill="#fff" fill-opacity=".95"/></svg><span class="wm">Portrait<b class="raw">RAW</b></span></a><p>Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.</p></div>
+  <div><h4>Sections</h4><nav aria-label="Footer sections"><a href="#/cat/awards">Awards</a><a href="#/cat/exhibitions">Exhibitions</a><a href="#/cat/people">Photographers</a><a href="#/cat/cameras">Cameras</a><a href="#/cat/lenses">Lenses</a><a href="#/cat/video">Video</a><a href="#/cat/studio">Studio &amp; Light</a><a href="#/cat/industry">Industry</a></nav></div>
+  <div><h4>PortraitRaw</h4><nav aria-label="Footer links"><a href="#/subscribe">Newsletter</a><a href="#/contact">Contact</a><a href="#/search">Search</a></nav></div>
+  <div class="legal"><span><a href="stories.html" style="color:inherit;margin-right:14px">All stories</a>© 2026 PortraitRaw</span></div>
+</div></footer>
+
+<script>
+(function(){
+"use strict";
+var WA='13238187676', WA_SHOW='+1 (323) 818-7676';
+var CATS={
+ cameras:{n:'Cameras',d:'New camera bodies, price changes and firmware updates.'},
+ lenses:{n:'Lenses',d:'New lenses, optical patents and what they mean for your kit.'},
+ video:{n:'Video',d:'Cinema cameras, gimbals and the tools hybrid shooters rely on.'},
+ studio:{n:'Studio & Light',d:'Flash, continuous light and the business of running a studio.'},
+ industry:{n:'Industry',d:'Trends, software and the way photographers work in 2026.'}
+};
+
+/* 20 stories supplied by the site owner. u = Unsplash source photo, downloaded to img/nNN.jpg */
+var S=[
+{id:1,cat:'lenses',tags:['Lenses','Patent'],d:'2026-10-17',u:'photo-1617005082133-548c4dd27f35',
+ t:'Canon patents ultra-high-index glass that could halve the size of fast primes',
+ dek:'A new generation of optical glass could make f/1.2 and f/1.4 lenses far smaller and lighter.',
+ cap:'Illustrative image: advanced optical glass elements in cross-section',
+ p:['Canon has patented a new generation of “ultra-high-index” glass elements designed to shrink both the size and the weight of its lenses.',
+  'Observers expect the technology to make wide-aperture f/1.2 and f/1.4 prime lenses roughly half their current size in the years ahead.']},
+{id:2,cat:'lenses',tags:['Lenses','APS-C'],d:'2026-10-17',u:'photo-1516035069371-29a1b244cc32',
+ t:'Tamron officially announces the 16–50mm f/2.8 for APS-C mirrorless cameras',
+ dek:'A lightweight standard zoom with a constant f/2.8 aperture for Canon RF, Sony E, Fujifilm X and Nikon Z.',
+ cap:'Illustrative image: a compact standard zoom mounted on a camera body',
+ p:['Tamron has announced a new, very light 16–50mm f/2.8 general-purpose zoom compatible with Canon RF, Sony E, Fujifilm X and Nikon Z bodies.',
+  'It brings constant f/2.8 performance across the zoom range to crop-sensor cameras.'],
+ specs:[['Focal length','16–50mm'],['Aperture','f/2.8'],['Weight','305 g'],['Price','from $529']]},
+{id:3,cat:'lenses',tags:['Lenses','APS-C'],d:'2026-10-17',u:'photo-1520549233664-03f65c1d1327',
+ t:'Sigma introduces the 50–120mm f/2.8 DC OS for RF and E mount',
+ dek:'The APS-C answer to a 70–200mm f/2.8, with optical stabilization and a low weight.',
+ cap:'Illustrative image: a telephoto zoom with a landscape behind it',
+ p:['Sigma has introduced the 50–120mm f/2.8 DC OS Contemporary, a telephoto zoom APS-C shooters have wanted for years. It is the crop-sensor equivalent of a 70–200mm f/2.8.',
+  'Its low weight and optical image stabilization (OS) are the headline features.']},
+{id:4,cat:'cameras',tags:['Cameras','Rumor'],d:'2026-10-17',u:'photo-1502920917128-1aa500764cbd',
+ t:'Nikon Z70 rumors grow: a mirrorless successor to the D500 is on the way',
+ dek:'Prototypes of a fast, rugged APS-C body for wildlife and sports have reportedly leaked.',
+ cap:'Illustrative image: a professional camera used for sports and wildlife',
+ p:['Prototypes of the “Nikon Z70”, a high-speed APS-C body expected to replace the D500 loved by nature and sports photographers, have reportedly leaked.',
+  'It is expected to stand out for its tough build and fast continuous shooting. Nikon has not confirmed the camera.']},
+{id:5,cat:'video',tags:['Video','Cinema'],d:'2026-10-17',u:'photo-1492691527719-9d1e07e534b4',
+ t:'Sony FX5 cinema camera brings the VENICE look to a compact body',
+ dek:'The newest FX model adds stronger cooling and built-in ND filters.',
+ cap:'Illustrative image: a professional cinema camera on a rig',
+ p:['Sony has expanded its FX line with the FX5. The body carries the color science of Sony’s VENICE cinema cameras.',
+  'Unlike the FX3, it adds more advanced cooling and internal ND filters.']},
+{id:6,cat:'cameras',tags:['Cameras','Prices'],d:'2026-10-17',u:'photo-1512790182412-b19e6d611397',
+ t:'Fujifilm raises GFX100 II and X100VI prices worldwide',
+ dek:'Rising material costs and supply problems push prices up by as much as 15%.',
+ cap:'Illustrative image: a retro-styled compact camera with a viewfinder',
+ p:['Citing raw-material costs and supply-chain problems, Fujifilm has confirmed price increases of up to 15% on the medium-format GFX100 II and the compact X100VI.']},
+{id:7,cat:'cameras',tags:['Cameras','Full frame'],d:'2026-10-17',u:'photo-1510127034890-ba27508e9f1c',
+ t:'Canon EOS R8 Mark II: release details confirmed',
+ dek:'Canon’s popular entry-level full-frame mirrorless camera gains in-body stabilization and a new 24.2 MP sensor.',
+ cap:'Illustrative image: a modern full-frame mirrorless camera',
+ p:['Canon has announced the R8 Mark II, the successor to its popular entry-to-mid-level full-frame mirrorless camera.',
+  'The update adds in-body image stabilization (IBIS) and a new 24.2-megapixel sensor.']},
+{id:8,cat:'lenses',tags:['Lenses','Full frame'],d:'2026-10-17',u:'photo-1554048612-b6a482bc67e5',
+ t:'TTartisan breaks the price barrier with a $99 24mm f/3.8 pancake',
+ dek:'An ultra-thin autofocus lens for full-frame sensors, aimed at street photographers.',
+ cap:'Illustrative image: a small pancake lens for street photography',
+ p:['Chinese lens maker TTartisan has announced the AF 24mm f/3.8, an ultra-thin pancake lens that covers full-frame sensors.',
+  'At $99 it has already caught the attention of street photographers.'],
+ specs:[['Focal length','24mm'],['Aperture','f/3.8'],['Focus','Autofocus'],['Price','$99']]},
+{id:9,cat:'cameras',tags:['Cameras','Firmware'],d:'2026-10-17',u:'photo-1581591524425-c7e0978865fc',
+ t:'Canon releases firmware 1.1.2 for the EOS R6 Mark III and R6 V',
+ dek:'The update fixes memory card recording errors reported by users.',
+ cap:'Illustrative image: a high-speed memory card going into a camera',
+ p:['Canon has released firmware version 1.1.2 for the R6 Mark III and R6 V. It fixes memory card saving errors reported by owners of both cameras.',
+  'The update is available to download from Canon’s support site.']},
+{id:10,cat:'lenses',tags:['Lenses','Patent'],d:'2026-10-17',u:'photo-1470071459604-3b5ec3a7fe05',
+ t:'Canon patent shows a new telephoto lens with a built-in teleconverter',
+ dek:'Patent drawings reveal a button-activated, drop-in teleconverter for Canon’s white lenses.',
+ cap:'Illustrative image: a large telephoto lens used for wildlife',
+ p:['Patent drawings have been published for Canon’s high-end “white lens” line showing a teleconverter built into the lens barrel.',
+  'The drop-in converter is switched in with a button. A patent does not mean the lens will go on sale.']},
+{id:11,cat:'industry',tags:['Industry','AI'],d:'2026-10-17',u:'photo-1542744094-3a31b272c490',
+ t:'AI photo culling became the studio standard in 2026',
+ dek:'Automatic selection and color matching now sit in the daily workflow of about 30% of photographers.',
+ cap:'Illustrative image: a photographer selecting and editing photos at a computer',
+ p:['AI-based software for automatic culling and color matching, which shortens editing for wedding and portrait photographers, has entered the daily workflow of about 30% of photographers in the industry.']},
+{id:12,cat:'video',tags:['Video','Gimbals'],d:'2026-10-17',u:'photo-1527011046414-4781f1f94f8c',
+ t:'DJI adds new accessories to the RS 4 gimbal system',
+ dek:'Smart focus motors and tracking modules for balancing light and heavy cinema cameras.',
+ cap:'Illustrative image: professional camera gear mounted on a gimbal',
+ p:['DJI has announced new smart focus motors and tracking modules for its RS 4 series gimbal stabilizers, designed to balance both light and heavy cinema cameras more effectively.']},
+{id:13,cat:'lenses',tags:['Lenses','Portrait'],d:'2026-10-17',u:'photo-1534528741775-53994a69daeb',
+ t:'Viltrox puts its full-frame autofocus 135mm f/1.8 LAB on sale',
+ dek:'The first lens in Viltrox’s top LAB line is pitched against Canon L and Sony G Master glass.',
+ cap:'Illustrative image: a sharp portrait with a soft bokeh background',
+ p:['Viltrox, known for its value-for-money products, has released the 135mm f/1.8 portrait lens, the first member of its top-tier “LAB” optical line.',
+  'Its sharpness is being compared with Canon’s L series and Sony’s G Master lenses.']},
+{id:14,cat:'lenses',tags:['Lenses','Rumor'],d:'2026-10-17',u:'photo-1535223289827-42f1e9919769',
+ t:'Canon RF 90mm f/2.8 IS STM Macro spotted',
+ dek:'A more affordable, non-L macro lens aimed at product and jewelry photographers.',
+ cap:'Illustrative image: a detailed macro photograph',
+ p:['A prototype of Canon’s 90mm f/2.8 IS STM Macro has reportedly been confirmed, for photographers who want a macro lens without the cost of the L series.',
+  'The lens is expected to target product and jewelry photographers.']},
+{id:15,cat:'studio',tags:['Studio','Flash'],d:'2026-10-17',u:'photo-1598899134739-24c46f58b8c0',
+ t:'Godox announces the DP400III-V smart studio flash',
+ dek:'A refreshed LED modeling lamp and a bi-color continuous light option.',
+ cap:'Illustrative image: a studio flash and softbox setup',
+ p:['Godox, a staple of photo studios, has released the DP400III-V, a studio monolight with a redesigned LED modeling lamp and a bi-color continuous light option.']},
+{id:16,cat:'video',tags:['Video','Film'],d:'2026-10-17',u:'photo-1485846234645-a62644f84728',
+ t:'Festival trends: ARRI Alexa 35 and 35mm film are rising again',
+ dek:'Directors and cinematographers are choosing the Alexa 35 for digital and 35mm film for classic looks.',
+ cap:'Illustrative image: a film set with film reels and a vintage cinema camera',
+ p:['According to a technical review of the fall 2026 film festivals, directors and cinematographers increasingly chose the ARRI Alexa 35 for digital work and 35mm film cameras for classic shoots.']},
+{id:17,cat:'cameras',tags:['Cameras','Prices'],d:'2026-10-17',u:'photo-1516962215378-7fa2e137ae93',
+ t:'Record price cut on the Sony A7 III sparks demand for entry-level full frame',
+ dek:'Below $1,000, it has become the best-selling body for photographers moving to mirrorless.',
+ cap:'Illustrative image: a full-frame mirrorless camera on a desk',
+ p:['With the Sony A7 III falling below $1,000 worldwide, it has become the best-selling body for photographers making their first move to a mirrorless system.']},
+{id:18,cat:'video',tags:['Video','Patent'],d:'2026-10-17',u:'photo-1589872723370-4e4d20b96e34',
+ t:'Smart hybrid cameras with built-in gimbals and cooling are coming',
+ dek:'Canon is reportedly working on gimbal-camera hybrids and has patented quiet internal fan cooling.',
+ cap:'Illustrative image: a small handheld gimbal and vlogging setup',
+ p:['Canon is reported to be working on hybrid bodies that combine a camera with a built-in gimbal, and to have received patents for a new generation of quiet internal fan cooling.']},
+{id:19,cat:'industry',tags:['Industry','Nature'],d:'2026-10-17',u:'photo-1469854523086-cc02fe5d8800',
+ t:'Mirrorless adoption among nature photographers reaches 90%',
+ dek:'Silent shutters and AI subject detection have pushed wildlife and landscape shooters away from DSLRs.',
+ cap:'Illustrative image: a landscape photographer with a tripod on a mountaintop',
+ p:['According to recent reports, more than 90% of wildlife and landscape photographers have left DSLRs behind entirely.',
+  'They have moved to mirrorless cameras with silent shutters and AI-assisted animal and bird autofocus.']},
+{id:20,cat:'studio',tags:['Studio','Lighting'],d:'2026-10-17',u:'photo-1517457373958-b7bdd4587205',
+ t:'The age of RGBW LED continuous light in portrait photography',
+ dek:'As hybrid creators shoot both stills and video, high-power COB LEDs are replacing studio flash.',
+ cap:'Illustrative image: a set lit with colored LED studio lights',
+ p:['With more “hybrid” creators shooting both photos and video, high-power RGBW COB LED lighting systems are starting to replace traditional flash in studios.']}
+];
+
+
+var EX=[];
+
+/* set to true once the photos are in img/ */
+/* story id -> downloaded Unsplash photo (best visual match from the supplied links) */
+var PHOTO={1:'n01',2:'n02',3:'n10',4:'a04',5:'n15',6:'n07',7:'n04',8:'b08',9:'n08',10:'a10',11:'a11',12:'a12',13:'n13',14:'a08',15:'n12',16:'n16',17:'n09',18:'a18',19:'n05',20:'a20'};
+S.forEach(function(x){if(PHOTO[x.id]){x.img='img/'+PHOTO[x.id]+'.webp';x.cap=(x.cap||'').replace('Illustrative image: ','')+' \u00b7 Photo: Unsplash';}});
+/* 50 stories supplied by the site owner (second list). img = one working photo from the story's own three links */
+function N(id,cat,tags,img,t,dek,p){return {id:id,cat:cat,tags:tags,d:'2026-10-17',img:'img/'+img+'.webp',cap:'Photo: Unsplash',t:t,dek:dek,p:p};}
+var NEW=[
+N(1,'cameras',['Cameras','Medium format'],'n02','Hasselblad X2D II 100C: the peak of 100-megapixel medium format','Hasselblad’s new body pairs 100 MP and 16-bit color with a $7,399 price tag.',['Hasselblad, a leader in luxury and medium-format photography, has announced the X2D II 100C with 100-megapixel resolution and 16-bit color depth, priced at $7,399.','With 1TB of built-in SSD storage and 15.3 stops of dynamic range, it is set to become a first choice for editorial and fashion photographers.']),
+N(2,'cameras',['Cameras','Full frame'],'n07','Leica SL3: minimalist design and a 60.3 MP BSI sensor','Leica updates its professional mirrorless line with the $6,995 SL3.',['Leica has updated its professional mirrorless series with the SL3, priced at $6,995.','The hand-built German body and the L-Mount system, paired with f/1.2 and f/1.4 lenses, offer outstanding portrait and fashion work.']),
+N(3,'cameras',['Cameras','Flagship'],'n09','Sony Alpha 1 II brings an AI autofocus leap to a $6,499 flagship','A dedicated AI processor takes eye detection and tracking to a new level.',['Sony has built a dedicated AI processing unit into its flagship A1 II, raising eye detection and tracking for portrait and wildlife photography to a new level.','Its 50.1 MP stacked sensor can shoot at 30 frames per second.']),
+N(4,'cameras',['Cameras','Flagship'],'n05','Canon EOS R1: an integrated-grip flagship for sports and press photographers','The $6,299 body is built for harsh conditions and nonstop burst shooting.',['Canon’s official flagship, the $6,299 EOS R1, has become a favorite of sports and editorial photographers.','Its weather-sealed body handles tough conditions and its burst shooting does not let up.']),
+N(5,'cameras',['Cameras','Medium format'],'n20','Fujifilm GFX100 II opens a new era for commercial and fashion portraits','A 102 MP sensor and 16-bit RAW files suit billboards and fashion campaigns.',['With its 102 MP large-format sensor, the Fujifilm GFX100 II has taken a leading place in commercial studio photography.','Its 16-bit RAW output gives outstanding tonality for large billboards and fashion shoots.']),
+N(6,'cameras',['Cameras','Rumor'],'n02','Sony a7R VI: 66.8 MP of resolution on the way','A stacked sensor and 8.5 stops of in-body stabilization are expected.',['Designed for high-resolution landscape and studio photography, the Sony a7R VI is expected to arrive with a 66.8 MP stacked sensor and 8.5 stops of in-body image stabilization (IBIS).']),
+N(7,'cameras',['Cameras','Full frame'],'n01','Canon EOS R6 Mark III surprises with a 32.5 MP full-frame sensor','CFexpress support and 40 fps bursts put hybrid creators on notice.',['The newest member of the popular R6 series, the R6 Mark III, offers a 32.5 MP full-frame sensor, CFexpress card support and 40 frames per second, making it a focus for hybrid content creators.']),
+N(8,'studio',['Studio','Lighting'],'a20','The RGBW LED continuous light revolution in studio portraits','Hybrid photo and video studios are moving to high-power COB RGBW panels.',['Alongside traditional strobes, studios that shoot both video and photos are moving to high-power COB RGBW LED panels.','Adjustable color temperature lets photographers create a distinctive atmosphere in portraits.']),
+N(9,'industry',['Industry','Photojournalism'],'n04','C2PA “signed” cameras become the standard in photojournalism','Hardware signatures document the moment a photo was taken.',['To fight fake AI-generated images, C2PA-licensed cameras record the moment a photo is taken with a hardware digital signature.','News organizations are making them a requirement for press photographers.']),
+N(10,'lenses',['Lenses','Portrait'],'n13','85mm f/1.2 and f/1.4: the portrait prime race heats up','New 85mm lenses from Sony, Canon and Nikon promise creamy bokeh and eyelash-level sharpness.',['New-generation 85mm portrait lenses from Sony, Canon and Nikon offer creamy background blur and eyelash-level sharpness.','They have become the favorite investment of portrait artists.']),
+N(11,'cameras',['Cameras','Rumor'],'n10','Nikon Z9 II is coming after years of waiting','A faster stacked sensor and better pre-capture are expected.',['The successor to Nikon’s legendary Z9, the Z9 II, is expected with a faster-readout stacked sensor and an improved pre-capture buffer.','It is one of the most anticipated bodies of 2026 for sports and nature photographers.']),
+N(12,'industry',['Industry','AI'],'a11','AI culling takes over wedding and event photography','Tools like Aftershoot cut photographers’ workload by 70%.',['AI-assisted software such as Aftershoot finds out-of-focus frames and closed eyes among thousands of RAW files in seconds.','It has cut photographers’ workload by 70%.']),
+N(13,'industry',['Industry','Film'],'n16','Back to analog: the “grain and imperfection” movement','Young photographers are bringing film’s look back, on film and in digital edits.',['Tired of the overly sharp look of digital photos, a younger generation is reviving the analog film aesthetic: grain, light leaks and natural color palettes.','They use it both in digital edits and with film cameras.']),
+N(14,'lenses',['Lenses','Portrait'],'n13','Viltrox LAB 135mm f/1.8: a Chinese lens maker shows its strength in portraits','Built to rival Canon L and Sony G Master glass at a lower price.',['Developed as a direct rival to flagship L and G Master lenses, the Viltrox 135mm f/1.8 LAB offers excellent subject separation and low-light performance.','It brings high-end portrait work within reach at an affordable price.']),
+N(15,'cameras',['Cameras','Full frame'],'n07','Nikon Z6 III: the price-performance champion with a partially stacked sensor','Flagship autofocus from the Z8 and Z9 at a lower price.',['With the world’s first partially stacked 24.5 MP sensor, the Nikon Z6 III continues to deliver the fast autofocus algorithms of the flagship Z8 and Z9 at an affordable price.']),
+N(16,'studio',['Studio','Newborn'],'n12','Baby-safe soft light systems in newborn studio sessions','Large softboxes and flicker-free LEDs replace harsh flash bursts.',['In newborn and family photography, large softboxes and eye-friendly, high-frequency continuous LED lighting have replaced harsh flash bursts as the standard.']),
+N(17,'lenses',['Lenses','APS-C'],'n02','Tamron 16–50mm f/2.8: an ultra-light standard zoom for APS-C mirrorless','A light, constant-aperture zoom for travel and portrait shooters.',['Tamron’s new lightweight zoom with a constant f/2.8 aperture, designed for crop-sensor cameras, lightens the load for travel and portrait enthusiasts.']),
+N(18,'lenses',['Lenses','Filters'],'n01','CPL filters grow popular in automotive and detail photography','Circular polarizers remove reflections from glass and paint.',['In car wraps, detailing and luxury car studio shoots, circular polarizing (CPL) filters that remove reflections from glass and bodywork have become essential to image quality.']),
+N(19,'lenses',['Lenses','APS-C'],'n10','Sigma 50–120mm f/2.8 DC OS: the new favorite of event photographers','An APS-C telephoto zoom equivalent to a full-frame 70–200mm f/2.8.',['Sigma has introduced a new telephoto zoom for APS-C users that works like a full-frame 70–200mm f/2.8.','Built-in optical stabilization makes low-light portraits easier.']),
+N(20,'industry',['Industry','Social media'],'n13','Vertical 9:16 photography is changing how photographers compose','Instagram, TikTok and YouTube Shorts demand native vertical framing.',['The need to frame natively in vertical for Instagram, TikTok and YouTube Shorts has fundamentally changed how photographers approach composition at the moment of capture.']),
+N(21,'lenses',['Lenses','Patent'],'a10','Canon patents a 400mm lens with a built-in teleconverter','One touch turns an f/2.8 lens into a 560mm f/4 for wildlife photographers.',['Canon has officially received a patent for a lens with a built-in converter mechanism that turns a 400mm f/2.8 into a 560mm f/4 at the touch of a button.']),
+N(22,'studio',['Studio','Flash'],'n12','Godox X3 touchscreen flash trigger spreads in studios','A tiny trigger with an OLED touchscreen puts flash power at your fingertips.',['With its OLED touchscreen and miniature size, the Godox X3 trigger puts flash power control at studio photographers’ fingertips.']),
+N(23,'industry',['Industry','Market'],'n02','The used camera market hits a record among nature and landscape photographers','More than 60% of photographers now buy on certified used-gear platforms.',['As prices for new bodies and L or GM series lenses rise, more than 60% of photographers have started using certified used-equipment platforms.']),
+N(24,'cameras',['Cameras','Full frame'],'n07','Nikon Z5 II brings EXPEED 7 to the most affordable full-frame mirrorless','Flagship processing from the Z8 and Z9 in a budget body.',['Nikon has given the entry-level Z5 II the same EXPEED 7 image processor used in the high-end Z8 and Z9, bringing strong autofocus performance to the budget category.']),
+N(25,'lenses',['Lenses','Street'],'n08','35mm f/1.4 primes keep their crown in street photography','Closest to the human eye’s view, they remain the documentary favorite.',['Offering the perspective closest to the natural human field of view, 35mm f/1.4 prime lenses remain the most used optics among documentary and street photographers in 2026.']),
+N(26,'video',['Video','Rumor'],'n02','Insta360 Ace Pro 3: a 1-inch sensor action camera is on the way','A leaked FCC filing points to 8K video in a pocket-size body.',['According to a leaked FCC certification, the Insta360 Ace Pro 3 promises pocket-size professional quality for outdoor sports and adventure photographers, with a large 1-inch sensor and 8K video.']),
+N(27,'cameras',['Cameras','APS-C'],'n07','Fujifilm X-T5: the 40.2 MP choice for lovers of classic dials','Physical shutter and ISO dials on a retro body.',['With its retro body and physical shutter speed and ISO dials, the Fujifilm X-T5 and its 40.2 MP X-Trans sensor remain the first choice of street and travel photographers.']),
+N(28,'industry',['Industry','Storage'],'n09','Dual card slots: SD versus CFexpress Type B','Falling CFexpress prices speed up backup recording at weddings and events.',['In the dual-card backup systems that prevent data loss at weddings and commercial events, falling prices for fast CFexpress Type B cards have sped up their adoption.']),
+N(29,'lenses',['Lenses','Full frame'],'b08','TTartisan AF 24mm f/3.8: a $99 mini pancake appears','An ultra-light autofocus pancake that fits in a pocket.',['For street photographers and everyday shooters, this ultra-light, pocketable autofocus pancake lens stands out for its budget-friendly price.']),
+N(30,'industry',['Industry','Editing'],'n09','24GB of RAM and Thunderbolt become the editing standard','Layered edits of 60 MP RAW files need more memory.',['For layered edits and AI masking of RAW files of 60 MP and above, systems with 24GB or more of memory have become the minimum standard for studios.']),
+N(31,'cameras',['Cameras','Rumor'],'a04','Nikon Z70 rumors leak: a mirrorless successor in the spirit of the D500','Leaks multiply as the fast APS-C body’s release nears.',['Leaks are increasing as the release of the Z70 approaches. It is expected to offer high APS-C burst rates for fast sports and bird photography.']),
+N(32,'video',['Video','Cinema'],'n15','Sony FX5 cinema and hybrid camera introduced','Built-in ND filters make it a favorite of professional productions.',['For creators who work in both photography and cinematography, the Sony FX5 with built-in ND filters has become a favorite of professional productions.']),
+N(33,'video',['Video','Monitors'],'n05','External monitors for outdoor shoots','High-brightness field monitors cut focus errors in portrait and ad work.',['High-nit external field monitors that stay fully bright in daylight are reducing focus errors to zero in portrait and advertising shoots.']),
+N(34,'studio',['Studio','Backdrops'],'n12','Seamless paper backdrops are back in studios','Pastel and earth tones lead the minimalist trend.',['In fashion and portrait studios, seamless backdrop paper in pastel and earth tones has again become the best-selling material, driven by minimalist shooting trends.']),
+N(35,'lenses',['Lenses','Patent'],'n01','Canon patents ultra-high-index optical glass','Future f/1.2 lenses could be 30% lighter and smaller.',['Canon’s new generation of high-refractive-index glass will allow future f/1.2 lenses to be 30% lighter and smaller.']),
+N(36,'studio',['Studio','Lighting'],'n12','Parabolic softboxes become the top choice of portrait photographers','Deep parabolics shape soft, directional light on the subject.',['Deep parabolic softboxes such as the QR-P90, which put soft and controllable light on the model, are improving light quality in studio portraits.']),
+N(37,'cameras',['Cameras','Wildlife'],'n10','In-body stabilization reaches a record in wildlife photography','8.5 stops of IBIS make handheld shooting with a 600mm possible.',['In-body stabilization has reached 8.5 stops, making it possible to shoot handheld even with huge telephoto lenses such as a 600mm.']),
+N(38,'video',['Video','Gimbals'],'a12','The DJI RS 4 stabilizer system keeps growing','New tracking motors and counterweights for heavy bodies and cinema lenses.',['New tracking motors and counterweights, optimized for heavy bodies and professional cinema and portrait lenses, have been released.']),
+N(39,'lenses',['Lenses','Rumor'],'a08','Canon RF 90mm f/2.8 IS STM Macro confirmed','An affordable 1:1 macro for jewelry, watch and product photographers.',['Designed for jewelry, watch and product photographers, the affordable new 1:1 macro lens is set to become one of the best-selling accessible lenses in the Canon RF system.']),
+N(40,'cameras',['Cameras','Autofocus'],'n10','Animal eye AF reaches 99% accuracy','AI systems check focus on an animal’s eye 120 times a second.',['Thanks to machine learning, systems that confirm focus on the eyes of birds, cats, dogs and wild animals 120 times a second have revolutionized nature photography.']),
+N(41,'cameras',['Cameras','Prices'],'n09','Sony A7 III discount brings new users to mirrorless','Near $1,000, it hits record sales among photography students.',['With its price approaching $1,000, the Sony A7 III has reached record sales among photography students who want to step up to full-frame quality.']),
+N(42,'lenses',['Lenses','Architecture'],'n01','Is software replacing tilt-shift lenses in architecture?','Top architectural photographers still rely on mechanical tilt-shift.',['Perspective correction software keeps improving, but top architectural photographers still use mechanical tilt-shift lenses to avoid optical distortion.']),
+N(43,'industry',['Industry','Sustainability'],'n19','Sustainable, eco-friendly photo gear reaches the market','Recycled bags and straps win support from eco-minded photographers.',['Bags and straps made from recycled plastics, and lens makers that adopt carbon-neutral production, are winning the support of environmentally aware photographers.']),
+N(44,'video',['Video','Drones'],'n10','Four Thirds sensors become the drone photography standard','Foldable drones with 4/3 sensors lead commercial aerial work.',['For photographers shooting commercial aerial portraits and landscapes, foldable drone systems with Four Thirds sensors have become the industry standard.']),
+N(45,'industry',['Industry','Fashion'],'n13','Fashion week trends: black-and-white portraits rise again','High-contrast monochrome with dramatic shadows returns backstage.',['In backstage photography at the world’s fashion weeks, high-contrast black-and-white portraits with dramatic shadows have climbed back to the top.']),
+N(46,'industry',['Industry','Smartphones'],'n09','The gap between smartphones and dedicated cameras is widening','Professional clients still prefer photographers with real cameras.',['Smartphones are improving for everyday photos, but thanks to larger sensors and optical depth of field, professional clients still prefer photographers who use dedicated cameras.']),
+N(47,'industry',['Industry','Underwater'],'n02','Pressure-proof housings for underwater and marine photography','Light aluminum housings with wide-angle lens support stand out.',['Light aluminum underwater housings made for marine biologists and underwater portrait artists stand out for their compatibility with wide-angle lenses.']),
+N(48,'industry',['Industry','Astro'],'n10','The “astro-modification” trend in star and Milky Way photography','Modified bodies and 14mm f/1.8 lenses capture deep-sky detail.',['Night sky photographers are capturing deep-space detail with bodies whose infrared filters have been removed and wide-aperture 14mm f/1.8 lenses.']),
+N(49,'industry',['Industry','Exhibitions'],'n14','Giant fine-art prints are in fashion at photo exhibitions','100 MP+ images printed large on cotton-based paper.',['In galleries and museum exhibitions, photographs taken with 100 MP+ medium-format cameras are being shown as giant prints on cotton-based fine-art paper.']),
+N(50,'industry',['Industry','Publishing'],'n09','Automatic news systems for photography publishers','RSS and AI automation bring camera launches to readers instantly.',['In the digital media age, photography news sites are moving to publishing systems that use RSS and AI automation to bring camera launches from around the world to readers instantly.'])
+];
+/* keep the earlier stories whose topics are not in the new list, renumbered after the 50 */
+var KEEP={6:51,7:52,9:53,15:54,16:55,18:56,19:57},OLDPHOTO={6:'n07',7:'n04',9:'n08',15:'n12',16:'n16',18:'a18',19:'n05'};
+var OLD_KEPT=S.filter(function(x){return KEEP[x.id];}).map(function(x){var o=Object.assign({},x);o.img='img/'+OLDPHOTO[x.id]+'.webp';o.cap=(o.cap||'').replace('Illustrative image: ','')+' · Photo: Unsplash';o.id=KEEP[x.id];return o;});
+S=NEW.concat(OLD_KEPT);
+
+/* final photo per story: portraits, landscapes and wildlife rather than gear (Unsplash), plus the studio's own photos */
+var FINAL={1:'p01',2:'p02',3:'p03',4:'p04',5:'p05',6:'p06',7:'p07',8:'p08',9:'p09',10:'n13',11:'p11',12:'p12',13:'p13',14:'p14',15:'p15',16:'n12',17:'p17',18:'p18',19:'p19',20:'p20',21:'p21',22:'p22',23:'p23',24:'p24',25:'p25',26:'p26',27:'p27',28:'p28',29:'p29',30:'a11',31:'p31',32:'n15',33:'p33',34:'p34',35:'p35',36:'p36',37:'p37',38:'a12',39:'a14',40:'p21',41:'n09',42:'p42',43:'p43',44:'p44',45:'p45',46:'p46',47:'p47',48:'p48',49:'p49',50:'p50'};
+S.forEach(function(x){if(FINAL[x.id]){x.img='img/'+FINAL[x.id]+'.webp';x.cap='Photo: Unsplash';}});
+/* 50 portrait-focused stories researched October 2026. Written in PortraitRaw's own words; each links to its source. */
+function R(id,cat,tags,d,t,dek,p,src){return {id:id,cat:cat,tags:tags,d:d,t:t,dek:dek,p:p,src:src};}
+var PORTRAIT=[
+R(101,'exhibitions',['Exhibitions','London'],'2026-10-12','Tim Walker’s Fairyland fills the National Portrait Gallery with 250 new portraits','Six years of sittings celebrate LGBTQ+ “legends”, from activists and nurses to Elton John.',
+ ['Tim Walker’s Fairyland: Love and Legends is open at the National Portrait Gallery in London until 7 February 2027. The show brings together 250 new portraits made over six years, celebrating more than five decades of Queer activism, community and love.','Walker, best known for elaborate fashion sets, photographed many sitters against plain white backdrops, a nod to Richard Avedon, whom he assisted in the 1990s. Sitters include Ian McKellen, Ben Whishaw, Ncuti Gatwa, Honey Dijon and Elton John, whose portrait was taken 22 days before the opening. Susanna Brown curated the show.'],
+ [['AnOther Magazine','https://www.anothermag.com/art-photography/17562/tim-walker-fairyland-national-portrait-gallery-love-letter-queer-community'],['Digital Camera World','https://www.digitalcameraworld.com/photography/portrait-photography/his-photographs-are-famed-for-giant-sets-and-fairytale-fantasies-so-why-is-tim-walker-shooting-portraits-on-plain-white-backgrounds']]),
+R(102,'awards',['Awards','Portrait prize'],'2026-10-14','Four portraits make the Winston Taylor Photo Portrait Prize shortlist','The renamed Taylor Wessing prize will crown a winner in November, with £15,000 at stake.',
+ ['The Winston Taylor Photo Portrait Prize, formerly the Taylor Wessing prize, has narrowed almost 4,000 entries to four finalists: James Clifford Kent, Marcie Docherty, Katie Hitchcock-Smith and Max Pattenden.','Their portraits range from a teenage pentathlete in Cuba to a ten-year-old girl from a Devon village. The winner receives £15,000, and the shortlisted work goes on show at the National Portrait Gallery in London from 5 November 2026 to 17 January 2027.'],
+ [['PetaPixel','https://petapixel.com/2026/08/13/one-of-these-four-portrait-photographers-will-win-over-20000/'],['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/']]),
+R(103,'awards',['Awards','Hasselblad Award'],'2026-10-10','Zanele Muholi’s Hasselblad Award exhibition opens in Gothenburg','The South African visual activist accepts photography’s biggest prize and opens a solo show.',
+ ['Zanele Muholi received the 2026 Hasselblad Award at a ceremony on 9 October, and a solo exhibition opened the next day at the Hasselblad Center in Gothenburg. It runs until 4 April 2027.','The prize carries SEK 2 million, a gold medal and a Hasselblad camera. The jury praised Muholi’s portraits of Black LGBTQIA+ people, including the 20-year series Faces and Phases and the self-portrait series Somnyama Ngonyama.'],
+ [['Hasselblad Foundation','https://www.hasselbladfoundation.org/en/hasselblad-award-winner-2026/'],['EWN','https://www.ewn.co.za/visibility-and-resistance-zanele-muholi-named-2026-hasselblad-award-laureate/']]),
+R(104,'exhibitions',['Exhibitions','Paris'],'2026-10-07','Remember Me: 700 photographs from the Pinault Collection take over the Bourse de Commerce','Penn, Avedon, Sherman, Leibovitz and Muholi share the walls in a show about memory.',
+ ['For the first time, the Bourse de Commerce in Paris has devoted an entire exhibition to photography. Remember Me gathers about 700 works by more than 70 artists from the Pinault Collection and runs until 18 January 2027.','The non-chronological show marks the bicentenary of photography and includes portraits by Irving Penn, Richard Avedon, Cindy Sherman, Annie Leibovitz, Lee Miller and Zanele Muholi. Barbara Kruger’s installation fills the building’s rotunda.'],
+ [['Sortir à Paris','https://www.sortiraparis.com/en/what-to-visit-in-paris/exhibit-museum/articles/346413-remember-me-more-than-700-photographic-masterpieces-from-the-pinault-collection-on-display-at-the-bourse-de-commerce']]),
+R(105,'exhibitions',['Exhibitions','Irving Penn'],'2026-10-07','The World According to Penn shows almost 450 Irving Penn photographs','The largest single section of Remember Me is devoted to the master of the studio portrait.',
+ ['Inside the Bourse de Commerce’s Remember Me exhibition, a gallery titled The World According to Penn presents nearly 450 photographs by Irving Penn, on view until 10 January 2027.','It is one of two major Penn shows in Paris this season, giving visitors a rare chance to compare his portraits, still lifes and fashion work side by side.'],
+ [['Sortir à Paris','https://www.sortiraparis.com/en/what-to-visit-in-paris/exhibit-museum/articles/346413-remember-me-more-than-700-photographic-masterpieces-from-the-pinault-collection-on-display-at-the-bourse-de-commerce']]),
+R(106,'exhibitions',['Exhibitions','Fashion'],'2026-09-30','Penn & Fashion traces six decades of Irving Penn’s fashion pictures at the MEP','From early Paris couture to his Vogue beauty series of the 1990s and 2000s.',
+ ['The Maison Européenne de la Photographie in Paris is showing Penn & Fashion until 17 January 2027. The exhibition covers Irving Penn’s fashion photographs from 1947 to 2008.','Designers in the show include Dior, Balenciaga, Yves Saint Laurent, Issey Miyake, John Galliano and Chanel. Works come from the MEP collection, collector Nicola Erni and loans from the Irving Penn Foundation.'],
+ [['Sortir à Paris','https://www.sortiraparis.com/en/what-to-visit-in-paris/exhibit-museum/articles/339105-in-paris-this-exhibition-traces-sixty-years-of-fashion-through-the-lens-of-irving-penn-opening-in-september']]),
+R(107,'people',['Photographers','Masterclass'],'2026-10-09','Annie Leibovitz to give a portrait masterclass in Paris','The photographer will talk through some of her best-known sittings on 9 November.',
+ ['Annie Leibovitz will lead a 75-minute masterclass at the Bourse de Commerce auditorium in Paris on 9 November 2026, as part of the Remember Me exhibition programme.','She is expected to discuss portraits including the Obama family, Queen Elizabeth II, Zendaya, and John Lennon and Yoko Ono. Curator Matthieu Humery will moderate, and tickets cost €5 to €10.'],
+ [['Time Out Paris','https://www.timeout.fr/paris/actualites/annie-leibovitz-masterclass-bourse-de-commerce-092526']]),
+R(108,'exhibitions',['Exhibitions','Richard Avedon'],'2026-09-09','Richard Avedon’s portraits of aging go on show in Toronto','Nearly 100 portraits, from Toni Morrison to the Dalai Lama, made between 1951 and 2004.',
+ ['Richard Avedon Immortal: Portraits of Aging, 1951–2004 is on view at The Image Centre at Toronto Metropolitan University until 5 December 2026.','The show includes nearly 100 portraits of sitters such as Toni Morrison, Gabriel García Márquez, Duke Ellington and Patti Smith. It also restages Avedon’s 1974 MoMA show of nine portraits of his father, Jacob Israel Avedon, in his final years.'],
+ [['NOW Toronto','https://nowtoronto.com/event/richard-avedon-immortal-portraits-of-aging-1951-2004/']]),
+R(109,'exhibitions',['Exhibitions','Washington'],'2026-10-03','Smithsonian’s National Portrait Gallery marks 50 years of collecting photography','More than 120 portraits, from daguerreotypes to digital, open on 14 November.',
+ ['Photographic Memory: Fifty Years of Collecting opens at the Smithsonian’s National Portrait Gallery on 14 November 2026 and runs until 7 November 2027.','Curated by Ann Shumard, it spans 1843 to today, including Alexander Gardner’s cracked-plate portrait of Abraham Lincoln and work by Mathew Brady, Dorothea Lange, Gordon Parks, Irving Penn, Richard Avedon, Diane Arbus and Annie Leibovitz.'],
+ [['PetaPixel','https://petapixel.com/2026/10/03/from-daguerreotypes-to-digital-national-portrait-gallery-celebrates-50-years-of-collecting-photography/']]),
+R(110,'exhibitions',['Exhibitions','Self-portrait'],'2026-10-13','Cindy Sherman’s Fabric Matrons explores identity and aging at Hauser & Wirth','New staged character portraits feature Chanel tweeds, sequins and jewellery.',
+ ['Cindy Sherman’s new series Fabric Matrons is on show at Hauser & Wirth in London until 23 December 2026. As throughout her career, Sherman acts as her own model.','Chanel invited her to use its fabrics and jewellery, and the heavily draped figures look at facade and identity in later life. Entry is free.'],
+ [['Wallpaper*','https://www.wallpaper.com/art/exhibitions-shows/cindy-shermans-characters-draped-in-chanel-interrogate-ageing-in-london']]),
+R(111,'exhibitions',['Exhibitions','Nan Goldin'],'2026-10-15','Nan Goldin’s first major UK show in over 20 years opens at the Hayward in November','You Never Did Anything Wrong covers five decades of intimate photographs and slideshows.',
+ ['The Hayward Gallery in London will open Nan Goldin: You Never Did Anything Wrong on 24 November 2026. It is Goldin’s first UK institutional exhibition since 2002 and closes the Southbank Centre’s 75th anniversary year.','The show surveys five decades of Goldin’s work on friendship, love, addiction and queer communities, with intimate portraits of friends and lovers shown alongside slideshows.'],
+ [['Southbank Centre','https://www.southbankcentre.co.uk/press/the-southbank-centres-hayward-gallery-announces-major-exhibition-by-nan-goldin/']]),
+R(112,'exhibitions',['Exhibitions','Studio portraits'],'2026-10-14','Sanlé Sory’s colour studio portraits are shown for the first time in London','The Photographers’ Gallery looks at youth, fashion and record sleeves from Burkina Faso.',
+ ['Sanlé Sory: Colour Years is open at The Photographers’ Gallery in London until 21 February 2027.','Sory opened his studio in Bobo-Dioulasso in 1960 and became known for black-and-white portraits. This show presents his rarely seen colour portraits and record sleeves, a record of style and modern life after independence.'],
+ [['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/'],['The Photographers’ Gallery','https://thephotographersgallery.org.uk/2026-photographers-gallery']]),
+R(113,'exhibitions',['Exhibitions','London'],'2026-10-08','Our Bodies Have Been Bridges brings three artists’ self-portraits to Autograph','Laura Aguilar, Tarrah Krajnak and Koyoltzintli use their own bodies to carry memory.',
+ ['Autograph in London is showing Our Bodies Have Been Bridges until 13 February 2027. The free exhibition gathers 65 works by Laura Aguilar, Tarrah Krajnak and Koyoltzintli.','In each artist’s work, her own body becomes a carrier of personal, collective and Indigenous memory.'],
+ [['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/']]),
+R(114,'exhibitions',['Exhibitions','Pictorialism'],'2026-10-14','Tate Modern’s Light & Magic tells the story of art photography’s birth','About 200 Pictorialist prints by more than 80 artists, from Steichen to Long Chin-san.',
+ ['Light & Magic: The Birth of Art Photography is at Tate Modern until 21 February 2027. Tate calls it the first major exhibition to treat Pictorialism as a global movement.','The show covers the 1880s to the 1960s and includes painterly portraits such as Edward Steichen’s Primo Carnera, alongside work by Gertrude Käsebier, Clarence H. White, Paul Strand and Edward Weston.'],
+ [['Tate','https://www.tate.org.uk/press/press-releases/light--magic-the-birth-of-art-photography']]),
+R(115,'exhibitions',['Exhibitions','Fashion'],'2026-10-08','Tate Britain’s The 90s: Art and Fashion puts magazine portraits on gallery walls','Curated by Edward Enninful, with Juergen Teller, Corinne Day and Nick Knight.',
+ ['The 90s: Art and Fashion runs at Tate Britain until 14 February 2027. Curated by Edward Enninful, it brings together more than 30 photographers who defined the decade’s fashion and subculture imagery.','Featured names include Juergen Teller, Corinne Day, Nick Knight, David Sims and Wolfgang Tillmans.'],
+ [['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/'],['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(116,'exhibitions',['Exhibitions','New York'],'2026-10-15','ICP surveys 70 years of Japanese women photographers','28 photographers, from Ishiuchi Miyako to Kawauchi Rinko, in I’m So Happy You Are Here.',
+ ['I’m So Happy You Are Here: Japanese Women Photographers from the 1950s to Now is at the International Center of Photography in New York until 11 January 2027.','Organized by Aperture with the Rencontres d’Arles, it brings together 28 photographers and groups their work around everyday life, women’s roles in society and experiments with photographic form.'],
+ [['Aperture','https://aperture.org/exhibitions/im-so-happy-you-are-here-japanese-women-photographers-from-the-1950s-to-now-icp-new-york/']]),
+R(117,'exhibitions',['Exhibitions','Deana Lawson'],'2026-09-10','Deana Lawson’s staged portraits fill Gagosian in New York','Lawson’s monumental portraits of Black life are on view until 24 October.',
+ ['Gagosian in New York is showing new work by Deana Lawson until 24 October 2026.','Lawson is known for large, carefully staged portraits of Black family, intimacy and spirituality, made with a large-format camera.'],
+ [['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(118,'exhibitions',['Exhibitions','Guggenheim'],'2026-09-18','Taryn Simon’s Father Country I Do Love You opens at the Guggenheim','The conceptual photographer’s new show runs until March 2027.',
+ ['Taryn Simon: Father Country I Do Love You is on view at the Solomon R. Guggenheim Museum in New York until 14 March 2027.','Simon is known for photographic projects that combine portraits, text and archives to examine power and belonging.'],
+ [['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(119,'exhibitions',['Exhibitions','Amsterdam'],'2026-09-18','Hailun Ma’s Hometown brings Xinjiang youth and style to Foam','Staged and spontaneous portraits of family and everyday fashion in western China.',
+ ['Foam in Amsterdam is showing Hailun Ma: Hometown until 20 January 2027. The exhibition gathers recent series on family, youth and everyday style in Xinjiang.','Ma, named to the BoF 500 in 2024, has published work in Vogue, GQ, i-D and New York Magazine.'],
+ [['Foam','https://www.foam.org/events/hailun-ma']]),
+R(120,'exhibitions',['Exhibitions','Los Angeles'],'2026-09-19','Roy DeCarava’s the sound i saw at David Zwirner Los Angeles','Lyrical black-and-white photographs of Harlem life and jazz musicians.',
+ ['David Zwirner in Los Angeles is showing Roy DeCarava: the sound i saw until 31 October 2026.','DeCarava, who died in 2009, made intimate, low-key black-and-white portraits of Harlem residents and jazz musicians.'],
+ [['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(121,'exhibitions',['Exhibitions','New York'],'2026-09-18','Baldwin Lee’s New York pictures at Howard Greenberg Gallery','The photographer, celebrated for his portraits of the American South, turns to New York.',
+ ['Howard Greenberg Gallery is showing Baldwin Lee: New York until 31 October 2026.','Lee became widely known for large-format portraits made across the American South in the 1980s.'],
+ [['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(122,'exhibitions',['Exhibitions','New York'],'2026-09-18','Aperture Loves New York gathers Arbus, Shore and Erizku','A group show celebrating the city through Aperture’s photographers.',
+ ['Aperture Loves New York is on view at Aperture in New York until 1 November 2026.','Work by Diane Arbus, Stephen Shore and Awol Erizku is among the pictures on show.'],
+ [['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(123,'exhibitions',['Exhibitions','Festival'],'2026-10-01','FotoFocus Biennial 2026 takes The Long View across Ohio and Kentucky','Paul Mpagi Sepuya and Nancy Rexroth are among the artists in a month-long festival.',
+ ['The FotoFocus Biennial 2026: The Long View runs through October at venues in Cincinnati, Dayton, Columbus and Northern Kentucky.','Featured artists include the portrait photographer Paul Mpagi Sepuya, Nancy Rexroth and Trevor Paglen.'],
+ [['Aperture','https://aperture.org/editorial/14-exhibitions-to-see-this-fall/']]),
+R(124,'exhibitions',['Exhibitions','Paris Photo'],'2026-10-16','Paris Photo returns to the Grand Palais for photography’s bicentenary','The 29th edition runs 12–15 November with more than 220 exhibitors.',
+ ['Paris Photo, the world’s largest photography fair, returns to the Grand Palais from 12 to 15 November 2026. This year’s edition celebrates the bicentenary of photography.','The fair includes the Main, Voices, Digital, Emergence and Book sectors, the Paris Photo–Aperture PhotoBook Awards and a programme with the Centre Pompidou.'],
+ [['Paris Photo','https://www.parisphoto.com/en-gb/info/Paris_Photo_2026_edition.html']]),
+R(125,'people',['Photographers','Obituary'],'2026-08-24','Jay Maisel, who shot the Kind of Blue cover portrait, dies at 95','The New York photographer taught generations to look for light, color and gesture.',
+ ['Jay Maisel, the New York photographer whose blue-toned portrait of Miles Davis appeared on the 1959 album Kind of Blue, has died at 95. His long-time mentee Stephen Wilkes announced the news.','Maisel began his career in 1954, shot the first two covers of New York Magazine, and for decades lived and worked in a six-story Bowery building, the subject of the documentary Jay Myself.'],
+ [['PetaPixel','https://petapixel.com/2026/08/24/celebrated-photographer-jay-maisel-dies-at-95/'],['DPReview','https://www.dpreview.com/news/jay-maisel-iconic-photographer-dies-95/']]),
+R(126,'people',['Photographers','Obituary'],'2026-06-01','William Coupon, painterly backdrop portraitist, dies at 73','He photographed Basquiat, Miles Davis and two Time Person of the Year covers.',
+ ['William Coupon died of cancer on 30 May 2026, aged 73. He began making backdrop portraits of the punk and New Wave scene at New York’s Mudd Club in 1979.','His Social Studies series portrayed subcultures and Indigenous peoples around the world, lit in a classical style inspired by Rembrandt and Holbein. His sitters included George Harrison, Jean-Michel Basquiat and Presidents Clinton and George W. Bush.'],
+ [['Wikipedia','https://en.wikipedia.org/wiki/William_Coupon']]),
+R(127,'people',['Photographers','Obituary'],'2026-01-03','Valery Plotnikov, portraitist of Russia’s cultural stars, dies at 82','He was best known for his portraits of the singer Vladimir Vysotsky.',
+ ['Russian photographer Valery Plotnikov died in Saint Petersburg on 2 January 2026, aged 82.','Born in Barnaul in 1943, he became known for portraits of actors, musicians and writers, above all Vladimir Vysotsky.'],
+ [['Wikipedia','https://en.wikipedia.org/wiki/Valery_Fyodorovich_Plotnikov']]),
+R(128,'awards',['Awards','Sony'],'2026-04-16','Citlali Fabán named Sony World Photography Awards Photographer of the Year','Her series Bilha, Stories of my Sisters portrays Indigenous women in Mexico.',
+ ['Mexican photographer Citlali Fabán was named Photographer of the Year at the 2026 Sony World Photography Awards in London for Bilha, Stories of my Sisters.','The winning work was shown at Somerset House in London from 17 April to 4 May 2026.'],
+ [['Sony Press Centre','https://www.sony.eu/presscentre/sony-world-photography-awards-2026-overall-winners-announced']]),
+R(129,'awards',['Awards','Sony'],'2026-04-16','The Faithful wins the Sony World Photography Awards portraiture category','Jean-Marc Caimi and Valentina Piccinni take the professional portrait prize.',
+ ['Italian duo Jean-Marc Caimi and Valentina Piccinni won the Portraiture category of the 2026 Sony World Photography Awards professional competition with The Faithful.','In the Open competition, the portraiture award went to Australian Elle Leontiev for The Barefoot Volcanologist.'],
+ [['Sony Press Centre','https://www.sony.eu/presscentre/sony-world-photography-awards-2026-overall-winners-announced']]),
+R(130,'awards',['Awards','World Press Photo'],'2026-04-09','Carol Guzy wins World Press Photo of the Year for Separated by ICE','The image shows a family torn apart after a migrant’s detention in New York.',
+ ['Carol Guzy’s Separated by ICE, made for the Miami Herald, is the 2026 World Press Photo of the Year. It shows a family separated after an Ecuadorian migrant was detained following a hearing in New York in August 2025.'],
+ [['World Press Photo','https://www.worldpressphoto.org/news/2026/world-press-photo-of-the-year-announced']]),
+R(131,'awards',['Awards','World Press Photo'],'2026-04-09','Victor J. Blue’s portrait of Achi women among World Press Photo finalists','The New York Times Magazine image was made outside a Guatemala City court.',
+ ['Victor J. Blue was a World Press Photo of the Year finalist with The Trials of the Achi Women, made for The New York Times Magazine.','The portrait shows Doña Paulina Ixpatá Alvarado and other Achi women outside a court in Guatemala City in May 2025.'],
+ [['World Press Photo','https://www.worldpressphoto.org/news/2026/world-press-photo-of-the-year-announced']]),
+R(132,'awards',['Awards','Deutsche Börse'],'2026-05-14','Rene Matić wins the Deutsche Börse Photography Foundation Prize','The £30,000 award recognizes AS OPPOSED TO THE TRUTH.',
+ ['Rene Matić won the 2026 Deutsche Börse Photography Foundation Prize at The Photographers’ Gallery in London for AS OPPOSED TO THE TRUTH.','The other shortlisted artists, Jane Evelyn Atwood, Weronika Gęsicka and Amak Mahmoodian, each received £5,000.'],
+ [['Deutsche Börse','https://www.deutsche-boerse.com/dbg-en/media/news-stories/press-releases/Rene-Mati-wins-the-Deutsche-B-rse-Photography-Foundation-Prize-2026-5130514']]),
+R(133,'awards',['Awards','APA'],'2026-09-29','A Venice Beach skateboarder portrait wins APA Best of Show','John Davidson also takes the Portraits award at the 2026 APA Awards.',
+ ['John Davidson won Best of Show at the 2026 American Photographic Artists Awards with a black-and-white image of a skateboarder in mid-air, part of an ongoing Los Angeles project.','He also won the Portraits category with a close-up of a skateboarder in Venice Beach.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']]),
+R(134,'awards',['Awards','Fine art'],'2026-10-16','Floating rocks on 8x10 film win Exposure One’s top prize','Joshua YeheNara is International Photographer of the Year.',
+ ['Exposure One named Joshua YeheNara its International Photographer of the Year 2026 for large-format film images that make rocks appear to float.','Ed Healy won the amateur International Discovery of the Year award for a Buffalo snow scene. The jury included professionals from SFMOMA, Aperture and the Leica Gallery Los Angeles.'],
+ [['Digital Camera World','https://www.digitalcameraworld.com/photography/awards-and-competitions/get-your-fix-of-monochrome-exposure-one-announces-its-international-photographer-of-the-year-2026-winners']]),
+R(135,'awards',['Awards','Wildlife'],'2026-10-13','A grieving elephant wins Wildlife Photographer of the Year 2026','Federico Veronesi’s The Aftermath tops 65,403 entries.',
+ ['Italian photographer Federico Veronesi won Wildlife Photographer of the Year 2026 for The Aftermath, which shows a female elephant carrying her dead calf in Namibia. Oscar Whitfield was named Young Wildlife Photographer of the Year.','The winning images are on show at the Natural History Museum in London until 11 July 2027.'],
+ [['Natural History Museum','https://www.nhm.ac.uk/press-office/press-releases/heartbreaking-photograph-of-an-elephant-and-deceased-calf-wins-wpy.html']]),
+R(136,'awards',['Awards','Pets'],'2026-09-30','A thoughtful pit bull portrait wins the Dog Photography Awards','Katie Brockman tops 1,900 entries from 50 countries.',
+ ['American photographer Katie Brockman won the 2026 Dog Photography Awards with a quiet, thoughtful portrait of a pit bull.','The competition received 1,900 entries from 50 countries.'],
+ [['PetaPixel','https://petapixel.com/2026/09/30/18-adorable-winners-from-the-dog-photography-awards/']]),
+R(137,'awards',['Awards','Pets'],'2026-08-04','Callie Soden makes history with a triple win at the Pet Photography Awards','She takes Creative, Studio and the overall Pet Photographer of the Year title.',
+ ['US-based photographer Callie Soden won three titles at the 2026 International Pet Photography Awards: Creative, Studio and overall Pet Photographer of the Year. Organizers called it a historic result.'],
+ [['DIY Photography','https://www.diyphotography.net/2026-international-pet-photography-awards-sees-a-historic-triple-win/']]),
+R(138,'awards',['Awards','Wildlife'],'2026-10-02','Comedy Wildlife Photography Awards names 40 finalists','A rude orangutan and an exercising bear are among the funniest animal portraits.',
+ ['The Nikon Comedy Wildlife Photography Awards picked 40 finalists from more than 10,000 entries from 112 countries. Winners will be announced on 8 December.','Finalists include Tanner Mansell’s Spicy Orangutan and Scott Suriano’s Morning Calisthenics, a brown bear rolling on its back.'],
+ [['Colossal','https://www.thisiscolossal.com/2026/10/comedy-wildlife-awards-2026-finalists/']]),
+R(139,'awards',['Awards','Smithsonian'],'2026-01-23','Outwin 2025 honors a portrait of two men misidentified by AI','Jared Soares’s photograph took second prize at the Smithsonian’s portrait competition.',
+ ['Washington photographer Jared Soares won second prize in the Smithsonian’s Outwin Boochever Portrait Competition with Misidentified by Artificial Intelligence: Alonzo and Carronne. First prize went to Kameron Neal’s video installation.','The Outwin 2025 exhibition was on view at the National Portrait Gallery in Washington until 30 August 2026.'],
+ [['Smithsonian Magazine','https://www.smithsonianmag.com/blogs/national-portrait-gallery/2026/01/23/national-portrait-gallery-announces-winners-of-the-seventh-outwin-boochever-portrait-competition-and-opening-of-the-outwin-2025-american-portraiture/']]),
+R(140,'lenses',['Lenses','Portrait'],'2026-09-15','Sigma completes its f/1.2 portrait trio with the 85mm F1.2 DG Art','The lens for Sony E and L-Mount was shown as a prototype at CP+.',
+ ['Sigma showed a working prototype of the 85mm F1.2 DG Art at CP+ 2026 in Yokohama. It joins the company’s 35mm and 50mm f/1.2 lenses.','The lens is made for Sony E and Leica L mounts, and a full launch was planned for September 2026. Sigma had not confirmed weight or price at the time of the preview.'],
+ [['PhotoWorkout','https://www.photoworkout.com/sigma-85mm-f1-2-dg-art-cp-plus-2026']]),
+R(141,'awards',['Awards','IPA'],'2026-09-29','Pete Muller’s portrait of Annabel wins at the International Photography Awards','The series includes a swimmer who lost a leg to cancer and now models.',
+ ['Pete Muller won an International Photography Awards category in 2026 with a series that includes Annabel, a swimmer who lost a leg to cancer and now works as a model.','The series also features Great Britain’s para ice hockey team in training.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']]),
+R(142,'exhibitions',['Exhibitions','Toronto'],'2026-09-12','Dawoud Bey’s Polaroid Street Portraits on view in Toronto','Late-1980s portraits made on Type 55 film, with every sitter given a print.',
+ ['Stephen Bulger Gallery in Toronto is showing Dawoud Bey: Street Portraits until 24 October 2026.','Bey made the portraits in the late 1980s in Brooklyn, Rochester and Washington, D.C., on 4x5 Type 55 Polaroid film. Each sitter received an instant print, and Bey later enlarged the negatives in the darkroom.'],
+ [['Stephen Bulger Gallery','https://www.bulgergallery.com/exhibitions/248-dawoud-bey-street-portraits/overview/']]),
+R(143,'exhibitions',['Exhibitions','Peter Hujar'],'2026-10-01','Last weeks for Hujar:Contact at the Morgan Library','More than 110 contact sheets reveal how Peter Hujar built his portraits.',
+ ['The Morgan Library & Museum in New York is showing Hujar:Contact until 25 October 2026.','The exhibition presents more than 110 contact sheets and 20 enlargements by Peter Hujar (1934–1987), showing how he worked toward his celebrated portraits.'],
+ [['The Morgan','https://www.themorgan.org/press/2026/hujarcontact-exhibition']]),
+R(144,'exhibitions',['Exhibitions','Nadar'],'2026-09-29','Nadar, the great portraitist, is celebrated as an inventor in the Paris Catacombs','A new exhibition looks at his patents for aerial photography and electric light.',
+ ['The Catacombes de Paris are showing Nadar: Discovering Paris from above and below until 31 January 2027.','Nadar is famous for his portraits of 19th-century Paris. The exhibition focuses on his inventions, including his 1858 patent for aerial photography and his use of electric light in the Catacombs from 1862.'],
+ [['Paris Musées','https://parismusees.paris.fr/en/exposition/nadar-discovering-paris-from-above-and-below']]),
+R(145,'exhibitions',['Exhibitions','Juergen Teller'],'2026-10-16','Juergen Teller exhibition opens at Galerie Suzanne Tarasieve in November','The German photographer returns to Paris during Paris Photo week.',
+ ['Galerie Suzanne Tarasieve in Paris will show a Juergen Teller exhibition from 7 November 2026 to 16 January 2027.','Teller’s candid, flash-lit portraits helped define 1990s fashion photography, and his work also appears in Tate Britain’s The 90s: Art and Fashion.'],
+ [['Unidivers','https://unidivers.fr/event/exposition-de-juergen-teller-galerie-suzanne-tarasieve-galerie-suzanne-tarasieve-paris-2026-11-07t1130000100/']]),
+R(146,'people',['Photographers','Collections'],'2026-07-27','National Portrait Gallery acquires Harley Weir’s portrait of Charli xcx','The 2024 photograph now hangs in the gallery’s History Makers room.',
+ ['London’s National Portrait Gallery has acquired Harley Weir’s 2024 portrait of the singer Charli xcx, leaning against a wall in a white crop top and black jeans.','The purchase was supported by the Bukhman Foundation’s Collecting the Now initiative, which gave £1m toward contemporary acquisitions.'],
+ [['The Art Newspaper','https://www.theartnewspaper.com/2026/07/27/music-fashion-film-photography-charli-xcx-image-acquired-by-londons-national-portrait-gallery']]),
+R(147,'exhibitions',['Exhibitions','London'],'2026-10-14','William Eggleston’s All That Goes Unnoticed marks 50 years of colour','The Photographers’ Gallery revisits the pioneer of colour photography.',
+ ['William Eggleston: All That Goes Unnoticed is at The Photographers’ Gallery in London until 21 February 2027, 50 years after his landmark colour show at MoMA.','The exhibition covers diners, streets and domestic scenes, as well as Eggleston’s portraits of people in the American South.'],
+ [['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/']]),
+R(148,'awards',['Awards','Advertising'],'2026-09-29','A boat builder’s portrait wins in the IPA advertising category','Christian Tisdale’s Sanctuary shows captain Gail Atkinson in Nova Scotia.',
+ ['Christian Tisdale won an International Photography Awards advertising category with Sanctuary, a portrait of captain Gail Atkinson in a boat builders’ shop on the Nova Scotia coast, made for TurboTax Canada.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']]),
+R(149,'awards',['Awards','Australia'],'2026-08-22','Nathan Beard wins the National Photographic Portrait Prize with a portrait of his aunt','Mae Khong takes $30,000 and Canon equipment at Australia’s National Portrait Gallery.',
+ ['Nathan Beard won Australia’s 2026 National Photographic Portrait Prize for Mae Khong, a portrait of his aunt. The award includes $30,000 and $20,000 of Canon equipment.','Franky Tsang won the People’s Choice Award for Between us. The finalists were shown at the National Portrait Gallery in Canberra until 11 October before a national tour.'],
+ [['National Portrait Gallery Australia','https://www.portrait.gov.au/exhibitions/national-photographic-portrait-prize-2026']]),
+R(150,'exhibitions',['Exhibitions','Japan'],'2026-10-10','Kyotographie’s London showcase closes this week at Japan House','Work by Kawada Kikuji and Iwane Ai, from Hiroshima-era images to the pandemic.',
+ ['Japan House London is showing work from the Kyotographie festival by Kawada Kikuji and Iwane Ai until 18 October 2026. Entry is free.','The show spans Kawada’s post-war series Chizu and Iwane’s pandemic-era A New River.'],
+ [['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/']])
+];
+
+var PCREDIT={101:['Lws Production','CC BY 3.0'],102:['Matt Harrop','CC BY-SA 2.0'],103:['International Gay and Lesbian Film Festival Side by Side','CC BY-SA 3.0'],104:['Jean-Pierre Dalbéra','CC BY 2.0'],105:['Harvey Shaman','Public domain'],106:['Mbzt','CC BY-SA 3.0'],107:['Robert Scoble','CC BY 2.0'],108:['blaze6t9','CC BY 2.0'],109:['Antony-22','CC BY-SA 4.0'],110:['Office of the Governor-General of New Zealand','CC BY 4.0'],111:['Elena Ternovaja','CC BY-SA 3.0'],112:['Artur Rumpel','CC BY-SA 3.0'],113:['Jwslubbock','CC BY-SA 4.0'],114:['Diego Delso','CC BY-SA 4.0'],115:['Julian Herzog','CC BY 4.0'],116:['Daniel D. Teoli Jr.','CC BY-SA 4.0'],117:['Ajay Suresh','CC BY 4.0'],118:['Ajay Suresh','CC BY 2.0'],119:['Dqfn13','CC BY-SA 3.0 nl'],120:['PBS','Public domain'],121:['Tdorante10','CC BY-SA 4.0'],122:['Pac624','Public domain'],123:['EEJCC','CC0'],124:['Ibex73','CC BY-SA 4.0'],125:['Tim Wilson','CC BY 2.0'],126:['Ignaz Königsberger','Public domain'],127:['Florstein','CC BY-SA 4.0'],128:['Chris Holifield','CC BY-SA 2.0'],129:['Pomonisp','CC BY-SA 4.0'],130:['Sashimi-b','CC BY 4.0'],131:['Geoff Barker','CC BY-SA 4.0'],132:['Robert Lamb','CC BY-SA 2.0'],133:['Alexander Migl','CC BY-SA 4.0'],134:['Daderot','CC0'],135:['APK','CC BY 4.0'],136:['Andraz Muljavec','CC BY-SA 4.0'],137:['Terragio67','CC BY-SA 4.0'],138:['A. Baihaqi','CC BY-SA 4.0'],139:['APK','CC BY-SA 3.0'],140:['Benlisquare','CC BY-SA 4.0'],141:['Tony Webster','CC BY 2.0'],142:['Zebrio','CC BY-SA 2.0'],143:['Epicgenius','CC BY-SA 4.0'],144:['Nadar','Public domain'],145:['Fotopersbureau De Boer','CC0'],146:['Eva Rinaldi','CC BY-SA 2.0'],147:['Rhododendrites','CC BY-SA 4.0'],148:['Michael Stokes','CC BY 2.0'],149:['Thennicke','CC BY-SA 4.0'],150:['A J Paxton','CC BY-SA 2.0']};
+var PCAPTION={101:'Tim Walker',103:'Zanele Muholi',105:'Irving Penn, c. 1958',107:'Annie Leibovitz',108:'Richard Avedon, 2004',110:'Cindy Sherman (second from left)',111:'Nan Goldin, 2023',120:'Roy DeCarava, 1984',125:'Jay Maisel’s Bowery building',126:'A 19th-century studio portrait with painted backdrop',144:'Nadar, self-portrait',145:'Juergen Teller, 2003',146:'Charli xcx'};
+PORTRAIT.forEach(function(x){var c=PCREDIT[x.id];x.img='img/r'+x.id+'.webp';x.cap=(PCAPTION[x.id]?PCAPTION[x.id]+' · ':'')+'Photo: '+c[0]+' / Wikimedia Commons, '+c[1];});
+CATS.awards={n:'Awards',d:'Portrait prizes, competitions and the photographs that won them.'};
+CATS.exhibitions={n:'Exhibitions',d:'Portrait and photography shows in museums and galleries.'};
+CATS.people={n:'Photographers',d:'The portrait photographers making news, and those we have lost.'};
+S=PORTRAIT.concat(S);
+
+/* 5 stories added October 18, illustrated with AI images (Nano Banana via Higgsfield) */
+var AICAP='AI illustration · Generated with Nano Banana (Higgsfield). Not the award-winning photograph.';
+var FIVE=[
+R(151,'awards',['Awards','Sports'],'2026-09-29','A high dive in Sardinia wins at the International Photography Awards','Gabriele Seghizzi’s Leap of Faith takes the Extreme Sports category.',
+ ['Italian photographer Gabriele Seghizzi has won the Extreme Sports category of the 2026 International Photography Awards with Leap of Faith.','The picture catches diver Annika Bornebusch in mid-air during the High Diving World Cup at Porto Flavia, on Sardinia’s rocky coast, in August 2025.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']]),
+R(152,'awards',['Awards','Portrait'],'2026-09-29','A cyclist’s quiet breakfast wins APA’s Personal Projects award','Ian Tuttle’s documentary series follows riders away from the race.',
+ ['Ian Tuttle won the Personal Projects category at the 2026 American Photographic Artists Awards with a documentary series about cycling.','One frame shows rider Zach Cutburth eating breakfast in his San Francisco home, a calm, intimate portrait of an athlete before the ride.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']]),
+R(153,'awards',['Awards','Lifestyle'],'2026-09-29','Golden Era, shot in Sardinia, wins APA’s Lifestyle category','Sara Molinar’s warm summer series takes the 2026 award.',
+ ['Sara Molinar won the Lifestyle category at the 2026 American Photographic Artists Awards with Golden Era.','She made the series in Sardinia, Italy, earlier this year.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']]),
+R(154,'exhibitions',['Exhibitions','London'],'2026-10-18','Roots: eight photographers turn their lenses on trees at The Photographers’ Gallery','Michael Kenna and Pentti Sammallahti are among the artists in a free show.',
+ ['The Photographers’ Gallery in London is showing Roots, a group exhibition of trees and forests by eight photographers, until 15 November 2026.','Artists include Michael Kenna, Pentti Sammallahti and Chrystel Lebas, and some works combine photography with other media. Entry is free and the prints are for sale.'],
+ [['The Glossary','https://theglossarymagazine.com/arts-culture/best-photography-exhibitions-london-2026/']]),
+R(155,'awards',['Awards','Travel'],'2026-09-29','A Jamaican sunrise wins APA’s travel landscape award','Matthew Dandy made the winning image on assignment in Montego Bay.',
+ ['Matthew Dandy won the Travel: Landscape category at the 2026 American Photographic Artists Awards.','His winning photograph shows sunrise at the Half Moon resort in Montego Bay, Jamaica, made while on assignment.'],
+ [['Wonderful Machine','https://wonderfulmachine.com/article/results-are-in-september-2026/']])
+];
+FIVE.forEach(function(x){x.img='img/ai'+x.id+'.webp';x.cap=AICAP;});
+S=FIVE.concat(S);
+/* story supplied by the site owner, October 19 */
+var OWNER=[{id:156,cat:'people',tags:['Photographers','Lighting','Interview'],d:'2026-10-19',
+ t:'Photographer Bahlul Mikayilov Reveals the Essential Lighting Setup Every Studio Needs',
+ dek:'Portrait photographer Bahlul Mikayilov, known for his creative and striking imagery, shared his insights on the latest equipment driving his recent creative workflow.',
+ img:'img/b156.webp',cap:'Bahlul Mikayilov at work in the studio · Photo provided by the photographer',
+ p:['In the world of photography, mastering light is often the single factor that sets an image apart. Renowned photographer Bahlul Mikayilov recently discussed his experience with his newest studio addition, the Godox AD400Pro II, explaining why this equipment has quickly become an indispensable tool in his visual arsenal.',
+  '<figure class="inl"><button type="button" class="zoomb" data-src="img/b156-1.webp" data-cap="Newborn portrait in a burgundy knit bonnet \u00b7 Photo: Bahlul Mikayilov" aria-label="Open photo: Newborn portrait in a burgundy knit bonnet \u00b7 Photo: Bahlul Mikayilov"><img src="img/b156-1.webp" alt="Newborn portrait in a burgundy knit bonnet \u00b7 Photo: Bahlul Mikayilov" loading="lazy"></button><figcaption>Newborn portrait in a burgundy knit bonnet \u00b7 Photo: Bahlul Mikayilov</figcaption></figure>',
+  'Highlighting that a truly powerful lighting setup simplifies every phase of production, Bahlul Mikayilov shared his thoughts during an interview with our publication:',
+  '<span class="quote">“Investing in the new Godox AD400Pro II lights has been one of the absolute best decisions for both my studio setup and on-location shoots. Thanks to their amazingly compact design, they offer incredible portability and effortless operation whether I am working indoors or outdoors. With their powerful and consistent output, having just this light setup allows you to accomplish virtually anything and tackle any project complete with confidence. They have truly become an irreplaceable asset for newborn, family, and portrait photography, where precision, color accuracy, and fine detail matter most. In my view, this is the ultimate must-have lighting gear for any studio seeking top-tier performance.”</span>',
+  '<figure class="inl"><button type="button" class="zoomb" data-src="img/b156-2.webp" data-cap="Newborn portrait on a moon prop under a starry backdrop \u00b7 Photo: Bahlul Mikayilov" aria-label="Open photo: Newborn portrait on a moon prop under a starry backdrop \u00b7 Photo: Bahlul Mikayilov"><img src="img/b156-2.webp" alt="Newborn portrait on a moon prop under a starry backdrop \u00b7 Photo: Bahlul Mikayilov" loading="lazy"></button><figcaption>Newborn portrait on a moon prop under a starry backdrop \u00b7 Photo: Bahlul Mikayilov</figcaption></figure>',
+  'By combining high performance with effortless portability, Bahlul Mikayilov demonstrates how the right light can elevate creative possibilities across diverse genres—from delicate newborn portraits to dynamic outdoor sessions.',
+  '<figure class="inl"><button type="button" class="zoomb" data-src="img/b156-3.webp" data-cap="Newborn portrait in a wooden basket with a teddy bear \u00b7 Photo: Bahlul Mikayilov" aria-label="Open photo: Newborn portrait in a wooden basket with a teddy bear \u00b7 Photo: Bahlul Mikayilov"><img src="img/b156-3.webp" alt="Newborn portrait in a wooden basket with a teddy bear \u00b7 Photo: Bahlul Mikayilov" loading="lazy"></button><figcaption>Newborn portrait in a wooden basket with a teddy bear \u00b7 Photo: Bahlul Mikayilov</figcaption></figure>'],
+ note:'Interview by PortraitRaw. Photo provided by the photographer.'}];
+S=OWNER.concat(S);
+var byId={};S.forEach(function(s){byId[s.id]=s;});
+var MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+function fd(iso){var a=iso.split('-');return MON[+a[1]-1]+' '+(+a[2])+', '+a[0];}
+function sd(iso){var a=iso.split('-');return MON[+a[1]-1]+' '+(+a[2]);}
+function esc(x){return String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;');}
+function strip(h){return h.replace(/<[^>]+>/g,'');}
+function num(n){return (n<10?'0':'')+n;}
+
+/* illustrated scenes for stories without a licensed photograph */
+var SCENE={};S.forEach(function(x){SCENE[x.id]=x.id===8?'pancake':x.id===11?'editor':x.id===19?'fisheye':x.cat==='studio'?'studio':x.cat==='cameras'?'compact':'lens';});
+var UID=0;
+function scene(k,label){
+ var u='s'+(++UID),G='',D='';
+ function lg(id,st,x2,y2){D+='<linearGradient id="'+u+id+'" x1="0" y1="0" x2="'+(x2||0)+'" y2="'+(y2===undefined?1:y2)+'">'+st.map(function(s){return '<stop offset="'+s[0]+'" stop-color="'+s[1]+'"'+(s[2]!==undefined?' stop-opacity="'+s[2]+'"':'')+'/>';}).join('')+'</linearGradient>';return 'url(#'+u+id+')';}
+ function rg(id,st,cx,cy,r){D+='<radialGradient id="'+u+id+'" cx="'+cx+'" cy="'+cy+'" r="'+r+'">'+st.map(function(s){return '<stop offset="'+s[0]+'" stop-color="'+s[1]+'"'+(s[2]!==undefined?' stop-opacity="'+s[2]+'"':'')+'/>';}).join('')+'</radialGradient>';return 'url(#'+u+id+')';}
+ var grain='<filter id="'+u+'gr"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 .5 0"/></filter>';
+ if(k==='wpy'){
+  G+='<rect width="600" height="400" fill="'+lg('sky',[[0,'#2A1B3D'],[.45,'#8E3B3A'],[.75,'#E07B39'],[1,'#F6B25A']])+'"/>';
+  G+='<circle cx="150" cy="268" r="46" fill="'+rg('sun',[[0,'#FFF1C2'],[.6,'#FFD27A'],[1,'#FFB347',0]],.5,.5,.5)+'"/><circle cx="150" cy="268" r="26" fill="#FFE6A3"/>';
+  G+='<path d="M0 285 C80 262 140 270 210 258 C290 244 360 262 430 250 C500 240 560 256 600 248 L600 300 L0 300Z" fill="#3B2030" opacity=".85"/>';
+  G+='<path d="M0 296 L600 290 L600 400 L0 400Z" fill="'+lg('gnd',[[0,'#5A3220'],[1,'#24140D']])+'"/>';
+  for(var i=0;i<7;i++)G+='<path d="M'+(i*95-20)+' '+(318+i%3*22)+' q60 -8 130 0" stroke="#C98A55" stroke-opacity=".25" stroke-width="3" fill="none"/>';
+  G+='<g fill="#120B0A"><rect x="525" y="215" width="7" height="80"/><path d="M528 225 l-22 -22 M530 222 l26 -24" stroke="#120B0A" stroke-width="5"/><ellipse cx="530" cy="196" rx="62" ry="14"/><ellipse cx="510" cy="190" rx="30" ry="9"/></g>';
+  // adult elephant
+  G+='<g fill="#120B0A"><ellipse cx="330" cy="262" rx="92" ry="52"/><rect x="262" y="272" width="24" height="70" rx="8"/><rect x="295" y="276" width="24" height="66" rx="8"/><rect x="352" y="276" width="24" height="66" rx="8"/><rect x="385" y="270" width="24" height="72" rx="8"/>'+
+   '<circle cx="420" cy="236" r="40"/><path d="M398 206 C372 214 370 266 392 282 C408 270 414 236 410 210Z"/><path d="M450 240 C470 262 466 300 452 330 C450 338 460 340 464 332 C482 300 482 258 458 230Z"/><path d="M242 250 C232 262 232 280 236 292" stroke="#120B0A" stroke-width="4" fill="none"/></g>';
+  G+='<path d="M448 258 q14 6 22 -2" stroke="#E8D9BE" stroke-width="4" stroke-linecap="round" fill="none" opacity=".8"/>';
+  // calf
+  G+='<g fill="#120B0A"><ellipse cx="200" cy="300" rx="36" ry="22"/><rect x="172" y="306" width="11" height="32" rx="4"/><rect x="214" y="306" width="11" height="32" rx="4"/><circle cx="236" cy="290" r="16"/><path d="M248 292 C256 302 254 316 248 322" stroke="#120B0A" stroke-width="6" fill="none" stroke-linecap="round"/><path d="M226 280 C214 284 214 300 224 306Z"/></g>';
+  G+='<rect width="600" height="400" fill="'+rg('vig',[[.55,'#000',0],[1,'#000',.55]],.5,.5,.75)+'"/>';
+ }
+ else if(k==='rocks'){
+  G+='<rect width="600" height="400" fill="'+lg('sky',[[0,'#EDEDED'],[.7,'#B9B9B9'],[1,'#9A9A9A']])+'"/>';
+  G+='<path d="M0 300 C120 290 220 296 320 292 C430 288 520 296 600 292 L600 400 L0 400Z" fill="'+lg('gnd',[[0,'#6E6E6E'],[1,'#2E2E2E']])+'"/>';
+  G+='<path d="M0 300 C60 270 110 282 160 268 C210 256 250 282 300 292" fill="#8C8C8C" opacity=".6"/>';
+  var R=[[170,150,70,'M-70 10 L-52 -30 L-10 -44 L40 -38 L70 -8 L58 26 L10 40 L-44 34Z'],[360,110,48,'M-48 6 L-30 -26 L12 -32 L46 -12 L44 18 L6 30 L-34 24Z'],[470,200,36,'M-36 4 L-22 -20 L10 -24 L36 -6 L30 16 L0 22 L-28 18Z']];
+  var rk=lg('rk',[[0,'#E2E2E2'],[.45,'#9C9C9C'],[1,'#3A3A3A']]);
+  R.forEach(function(r){G+='<ellipse cx="'+r[0]+'" cy="'+(318+r[2]*.2)+'" rx="'+(r[2]*1.1)+'" ry="'+(r[2]*.14)+'" fill="#1E1E1E" opacity=".35"/><path transform="translate('+r[0]+' '+r[1]+')" d="'+r[3]+'" fill="'+rk+'" stroke="#2B2B2B" stroke-opacity=".4"/>';});
+  G+='<rect width="600" height="400" filter="url(#'+u+'gr)" opacity=".22"/>';
+  G+='<rect x="10" y="10" width="580" height="380" fill="none" stroke="#111" stroke-opacity=".7" stroke-width="3"/>';
+ }
+ else if(k==='lens'){
+  G+='<rect width="600" height="400" fill="'+rg('bg',[[0,'#3B4046'],[1,'#0E1012']],.5,.38,.75)+'"/>';
+  G+='<rect x="0" y="300" width="600" height="100" fill="#0B0C0D" opacity=".55"/>';
+  var met=lg('met',[[0,'#5E6369'],[.18,'#2A2D30'],[.55,'#141617'],[.85,'#2C2F33'],[1,'#191B1D']]);
+  G+='<rect x="120" y="160" width="44" height="100" rx="4" fill="'+met+'"/><rect x="112" y="170" width="12" height="80" fill="#9A9A9A" opacity=".6"/>';
+  G+='<rect x="160" y="140" width="300" height="140" rx="8" fill="'+met+'"/>';
+  for(var r1=0;r1<34;r1++)G+='<rect x="'+(250+r1*4)+'" y="142" width="2" height="136" fill="#000" opacity=".45"/>';
+  for(var r2=0;r2<16;r2++)G+='<rect x="'+(400+r2*3)+'" y="144" width="1.5" height="132" fill="#000" opacity=".4"/>';
+  G+='<rect x="388" y="140" width="3" height="140" fill="#C9A24A" opacity=".85"/>';
+  G+='<text x="178" y="215" fill="#C8CCD0" font-family="IBM Plex Mono, monospace" font-size="13" letter-spacing="1">16-50mm 1:2.8</text>';
+  G+='<ellipse cx="460" cy="210" rx="26" ry="70" fill="#090A0B"/><ellipse cx="462" cy="210" rx="18" ry="58" fill="'+lg('gl',[[0,'#3B2F6B'],[.4,'#14324A'],[.7,'#2E5B3C'],[1,'#0B0C10']],1,1)+'"/><path d="M458 172 q10 20 4 50" stroke="#fff" stroke-opacity=".5" stroke-width="3" fill="none"/>';
+  G+='<path d="M160 280 L460 280 L470 300 L150 300Z" fill="#000" opacity=".25"/>';
+  G+='<g opacity=".18" transform="translate(0 600) scale(1 -1)"><rect x="160" y="300" width="300" height="40" fill="'+met+'"/></g>';
+ }
+ else if(k==='pancake'){
+  G+='<rect width="600" height="400" fill="'+lg('bg',[[0,'#C9B49A'],[1,'#8C7357']],1,1)+'"/>';
+  G+='<rect x="40" y="70" width="520" height="280" rx="22" fill="'+lg('body',[[0,'#2E3034'],[1,'#121315']])+'"/><rect x="40" y="70" width="520" height="40" rx="22" fill="#3A3C40"/>';
+  G+='<rect x="70" y="120" width="70" height="200" rx="14" fill="#1A1B1D"/>';
+  for(var t=0;t<12;t++)G+='<rect x="74" y="'+(130+t*15)+'" width="62" height="6" rx="3" fill="#000" opacity=".5"/>';
+  G+='<circle cx="330" cy="220" r="112" fill="#0D0E0F"/><circle cx="330" cy="220" r="104" fill="'+rg('ring',[[.7,'#4A4D52'],[.9,'#2A2C2F'],[1,'#5A5E63']],.5,.5,.5)+'"/>';
+  G+='<circle cx="330" cy="220" r="78" fill="#111"/><circle cx="330" cy="220" r="64" fill="'+rg('glass',[[0,'#22305A'],[.5,'#13203A'],[.85,'#2C4A3A'],[1,'#080A0D']],.42,.4,.6)+'"/>';
+  G+='<path d="M290 190 a50 50 0 0 1 36 -28" stroke="#fff" stroke-opacity=".55" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="360" cy="250" r="6" fill="#A08CFF" opacity=".5"/>';
+  G+='<path id="'+u+'arc" d="M330 220 m-91 0 a91 91 0 1 1 182 0" fill="none"/><text fill="#D9DCE0" font-family="IBM Plex Mono, monospace" font-size="11" letter-spacing="2"><textPath href="#'+u+'arc" startOffset="22%">AF 24mm 1:3.8 · 0.3m</textPath></text>';
+  G+='<rect x="470" y="96" width="40" height="14" rx="4" fill="#C92F25"/>';
+ }
+ else if(k==='gallery'){
+  G+='<rect width="600" height="400" fill="#EFE8DC"/><rect y="310" width="600" height="90" fill="'+lg('fl',[[0,'#8E6B47'],[1,'#5A4128']])+'"/>';
+  var spot=rg('sp',[[0,'#FFF7E6',.9],[1,'#FFF7E6',0]],.5,.3,.6);
+  [[110,60,110,140,'#2F3A44'],[260,90,90,110,'#B98552'],[380,50,120,160,'#5B6E5A'],[530,95,60,80,'#3B3B3B']].forEach(function(f){
+   G+='<ellipse cx="'+(f[0]+f[2]/2)+'" cy="'+(f[1]+f[3]/2)+'" rx="'+(f[2]*1.1)+'" ry="'+(f[3]*.9)+'" fill="'+spot+'"/>';
+   G+='<rect x="'+(f[0]-6)+'" y="'+(f[1]-6)+'" width="'+(f[2]+12)+'" height="'+(f[3]+12)+'" fill="#1B1B1B"/><rect x="'+(f[0]+6)+'" y="'+(f[1]+6)+'" width="'+(f[2]-12)+'" height="'+(f[3]-12)+'" fill="#FAF8F3"/><rect x="'+(f[0]+16)+'" y="'+(f[1]+16)+'" width="'+(f[2]-32)+'" height="'+(f[3]-32)+'" fill="'+f[4]+'"/>';});
+  G+='<rect x="130" y="290" width="200" height="14" fill="#3A2C1E"/><rect x="140" y="304" width="10" height="26" fill="#2A1F15"/><rect x="310" y="304" width="10" height="26" fill="#2A1F15"/>';
+  G+='<g fill="#1E1C1A"><circle cx="455" cy="232" r="15"/><path d="M430 250 q25 -10 50 0 l6 82 h-62Z"/><rect x="436" y="330" width="12" height="40"/><rect x="458" y="330" width="12" height="40"/></g>';
+  G+='<ellipse cx="453" cy="372" rx="38" ry="5" fill="#000" opacity=".25"/>';
+ }
+ else if(k==='compact'){
+  G+='<rect width="600" height="400" fill="'+lg('bg',[[0,'#F0C9A2'],[1,'#D27F55']],1,1)+'"/><rect y="290" width="600" height="110" fill="#B9653F" opacity=".45"/>';
+  // silver film compact
+  G+='<ellipse cx="140" cy="300" rx="100" ry="10" fill="#000" opacity=".2"/><rect x="50" y="190" width="180" height="108" rx="26" fill="'+lg('sil',[[0,'#F4F5F6'],[1,'#A7ABAF']])+'"/><circle cx="150" cy="250" r="30" fill="#2A2C2F"/><circle cx="150" cy="250" r="18" fill="#1A2B44"/><circle cx="144" cy="244" r="5" fill="#fff" opacity=".5"/><rect x="70" y="206" width="30" height="18" rx="4" fill="#2A2C2F"/><rect x="186" y="204" width="24" height="10" rx="3" fill="#C92F25"/>';
+  // black premium compact
+  G+='<ellipse cx="350" cy="306" rx="120" ry="10" fill="#000" opacity=".25"/><rect x="250" y="150" width="200" height="150" rx="14" fill="'+lg('blk',[[0,'#3A3C40'],[1,'#121314']])+'"/><rect x="250" y="150" width="200" height="22" rx="10" fill="#4A4C50"/><rect x="270" y="135" width="40" height="18" rx="4" fill="#2A2B2E"/><circle cx="375" cy="232" r="52" fill="#0B0C0D"/><circle cx="375" cy="232" r="44" fill="'+rg('ln',[[0,'#25365E'],[.7,'#0F1726'],[1,'#3A3E44']],.45,.4,.6)+'"/><circle cx="363" cy="220" r="8" fill="#fff" opacity=".4"/><rect x="410" y="132" width="26" height="18" rx="6" fill="#88898C"/>';
+  // retro digital, no screen
+  G+='<ellipse cx="520" cy="304" rx="70" ry="8" fill="#000" opacity=".2"/><rect x="460" y="220" width="120" height="82" rx="10" fill="#2F5C4E"/><rect x="460" y="220" width="120" height="26" rx="10" fill="#E9E1CF"/><circle cx="520" cy="270" r="20" fill="#1A1B1D"/><circle cx="520" cy="270" r="11" fill="#2A3A55"/><rect x="470" y="226" width="22" height="14" rx="3" fill="#1A1B1D"/>';
+ }
+ else if(k==='studio'){
+  var bands=['#E7B533','#1E7F86','#C8452F','#F0D7A0','#2F4E8C','#E7B533','#1E7F86'];
+  bands.forEach(function(c,i){G+='<rect x="0" y="'+(i*45)+'" width="600" height="45" fill="'+c+'"/>';});
+  for(var f=0;f<14;f++){var cx=30+f*42,cy=40+(f%2)*45;G+='<circle cx="'+cx+'" cy="'+(cy+90)+'" r="12" fill="#F7F0E2" opacity=".55"/><circle cx="'+cx+'" cy="'+(cy+90)+'" r="5" fill="#C8452F"/>';}
+  G+='<rect y="300" width="600" height="100" fill="#E9DFC9"/>';
+  for(var tx=0;tx<10;tx++)for(var ty=0;ty<3;ty++)if((tx+ty)%2)G+='<path d="M'+(tx*60)+' '+(300+ty*34)+' h60 v34 h-60Z" fill="#2B2A28" opacity=".85"/>';
+  G+='<g fill="#6B3E1F"><rect x="230" y="210" width="110" height="14" rx="3"/><rect x="236" y="140" width="10" height="160"/><rect x="324" y="140" width="10" height="160"/><rect x="236" y="140" width="98" height="10"/><rect x="236" y="175" width="98" height="6"/><rect x="236" y="224" width="8" height="90"/><rect x="326" y="224" width="8" height="90"/></g>';
+  G+='<g><rect x="478" y="140" width="5" height="200" fill="#222"/><path d="M480 340 l-30 30 M480 340 l30 30 M480 340 v32" stroke="#222" stroke-width="4"/><path d="M420 90 q60 -50 120 0 l-60 50Z" fill="#F4F1EA" stroke="#222" stroke-width="2"/><rect x="468" y="126" width="26" height="22" rx="3" fill="#333"/></g>';
+  G+='<rect width="600" height="400" filter="url(#'+u+'gr)" opacity=".15"/>';
+ }
+ else if(k==='editor'){
+  G+='<rect width="600" height="400" fill="'+lg('bg',[[0,'#2A2D33'],[1,'#121417']])+'"/>';
+  G+='<rect x="70" y="40" width="460" height="290" rx="12" fill="#0B0C0E" stroke="#3A3D42"/><rect x="82" y="52" width="436" height="266" fill="#1C1E22"/>';
+  G+='<rect x="92" y="62" width="300" height="200" fill="'+lg('ph',[[0,'#F2A65A'],[.5,'#C9566A'],[1,'#3B2E5A']])+'"/><path d="M92 262 L150 190 L200 230 L260 160 L330 220 L392 180 L392 262Z" fill="#1E1A2E"/><circle cx="320" cy="120" r="18" fill="#FFE0A0"/>';
+  G+='<rect x="92" y="272" width="300" height="36" fill="#141518"/>';
+  for(var th=0;th<6;th++)G+='<rect x="'+(98+th*48)+'" y="277" width="42" height="26" fill="'+['#C9566A','#3B6E8F','#7C8B4A','#B9853F','#5A4E7C','#8F4B3B'][th]+'" opacity=".8"/>';
+  var hs=3;for(var hb=0;hb<40;hb++){hs=(hs*9301+49297)%233280;var hh=8+Math.round(46*Math.exp(-Math.pow((hb-24)/9,2))+(hs/233280)*10);G+='<rect x="'+(404+hb*2.6)+'" y="'+(116-hh)+'" width="2" height="'+hh+'" fill="#D8DCE0" opacity=".55"/>';}
+  G+='<rect x="402" y="62" width="106" height="56" fill="none" stroke="#3A3D42"/>';
+  ['Exposure','Contrast','Highlights','Shadows','Whites','Texture'].forEach(function(n,i){var y=140+i*28,kx=420+((i*37)%70);G+='<text x="404" y="'+(y-4)+'" fill="#9AA0A6" font-family="IBM Plex Mono, monospace" font-size="9">'+n+'</text><line x1="404" y1="'+(y+4)+'" x2="508" y2="'+(y+4)+'" stroke="#4A4D52" stroke-width="2"/><circle cx="'+kx+'" cy="'+(y+4)+'" r="5" fill="#E7A33A"/>';});
+  G+='<path d="M40 330 L560 330 L590 356 L10 356Z" fill="#3A3D42"/><rect x="250" y="332" width="100" height="8" rx="4" fill="#24262A"/>';
+ }
+ else if(k==='fisheye'){
+  G+='<rect width="600" height="400" fill="#050505"/><defs><clipPath id="'+u+'c"><circle cx="300" cy="200" r="180"/></clipPath></defs>';
+  G+='<g clip-path="url(#'+u+'c)"><rect width="600" height="400" fill="'+rg('sk',[[0,'#BFE3F5'],[.6,'#4A90C8'],[1,'#163B66']],.5,.25,.7)+'"/>';
+  G+='<ellipse cx="300" cy="470" rx="330" ry="250" fill="#3E6B3A"/><ellipse cx="300" cy="480" rx="290" ry="230" fill="#2E5530"/>';
+  for(var tr=0;tr<11;tr++){var a=(-80+tr*16)*Math.PI/180,bx=300+300*Math.sin(a),by=470-240*Math.cos(a);G+='<g transform="translate('+bx.toFixed(1)+' '+by.toFixed(1)+') rotate('+(-80+tr*16)+')"><rect x="-3" y="-40" width="6" height="40" fill="#2A1E14"/><ellipse cx="0" cy="-52" rx="18" ry="24" fill="#1F4A26"/></g>';}
+  G+='<circle cx="300" cy="90" r="14" fill="#FFF8DC"/><circle cx="300" cy="90" r="40" fill="#FFF8DC" opacity=".18"/></g>';
+  G+='<circle cx="300" cy="200" r="180" fill="'+rg('fv',[[.8,'#000',0],[1,'#000',.75]],.5,.5,.5)+'"/><circle cx="300" cy="200" r="181" fill="none" stroke="#1A1A1A" stroke-width="3"/>';
+ }
+ return '<svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice" role="img" aria-label="'+esc(label)+'"><defs>'+D+grain+'</defs>'+G+'</svg>';
+}
+
+/* generated plates for stories without a photograph */
+function plate(pl,id){
+ var k=pl.k,g='',W=600,H=400;
+ if(k==='lens'){for(var i=0;i<6;i++)g+='<circle cx="430" cy="200" r="'+(170-i*26)+'" fill="none" stroke="#EEF0F0" stroke-opacity="'+(0.10+i*0.05)+'" stroke-width="'+(i%2?1:2)+'"/>';
+  var pts=[];for(var j=0;j<7;j++){var an=j*2*Math.PI/7-1.1;pts.push((430+44*Math.cos(an)).toFixed(1)+','+(200+44*Math.sin(an)).toFixed(1));}
+  g+='<polygon points="'+pts.join(' ')+'" fill="#0A0B0C" stroke="#E7A33A" stroke-width="1.5"/>';}
+ else if(k==='award'){for(var r=0;r<24;r++){var a1=r*Math.PI/12;g+='<line x1="'+(440+60*Math.cos(a1)).toFixed(1)+'" y1="'+(200+60*Math.sin(a1)).toFixed(1)+'" x2="'+(440+150*Math.cos(a1)).toFixed(1)+'" y2="'+(200+150*Math.sin(a1)).toFixed(1)+'" stroke="#E7A33A" stroke-opacity=".35"/>';}
+  g+='<circle cx="440" cy="200" r="58" fill="none" stroke="#EEF0F0" stroke-opacity=".5"/>';}
+ else if(k==='wall'){var fr=[[330,70,110,140],[455,70,90,90],[455,175,90,115],[330,225,110,65],[560,70,30,220]];fr.forEach(function(f){g+='<rect x="'+f[0]+'" y="'+f[1]+'" width="'+f[2]+'" height="'+f[3]+'" fill="none" stroke="#EEF0F0" stroke-opacity=".45" stroke-width="2"/><rect x="'+(f[0]+8)+'" y="'+(f[1]+8)+'" width="'+(f[2]-16)+'" height="'+(f[3]-16)+'" fill="#EEF0F0" fill-opacity=".06"/>';});
+  g+='<line x1="300" y1="330" x2="600" y2="330" stroke="#E7A33A" stroke-opacity=".5"/>';}
+ else if(k==='histo'){var s=id*7;for(var b=0;b<48;b++){s=(s*9301+49297)%233280;var hgt=20+Math.round(180*Math.exp(-Math.pow((b-28)/11,2))+(s/233280)*30);g+='<rect x="'+(300+b*6)+'" y="'+(330-hgt)+'" width="5" height="'+hgt+'" fill="#EEF0F0" fill-opacity=".28"/>';}
+  g+='<line x1="300" y1="330" x2="590" y2="330" stroke="#E7A33A" stroke-opacity=".7"/>';}
+ else if(k==='compact'){g+='<rect x="330" y="120" width="230" height="150" rx="10" fill="none" stroke="#EEF0F0" stroke-opacity=".5" stroke-width="2"/><circle cx="445" cy="200" r="52" fill="none" stroke="#EEF0F0" stroke-opacity=".5" stroke-width="2"/><circle cx="445" cy="200" r="30" fill="none" stroke="#E7A33A" stroke-opacity=".8"/><rect x="345" y="100" width="44" height="20" fill="none" stroke="#EEF0F0" stroke-opacity=".4"/><rect x="510" y="135" width="34" height="18" fill="none" stroke="#EEF0F0" stroke-opacity=".4"/>';}
+ return '<svg viewBox="0 0 '+W+' '+H+'" preserveAspectRatio="xMidYMid slice" role="img" aria-label="'+esc(pl.a+' '+pl.b)+'"><rect width="600" height="400" fill="#202326"/><rect width="600" height="400" fill="url(#gr'+id+')"/><defs><radialGradient id="gr'+id+'" cx=".72" cy=".5" r=".7"><stop offset="0" stop-color="#3A3F44"/><stop offset="1" stop-color="#16181A"/></radialGradient></defs>'+g+
+  '<text x="34" y="236" fill="#EEF0F0" font-family="Bodoni Moda, Georgia, serif" font-size="92" font-style="italic">'+esc(pl.a)+'</text><text x="38" y="282" fill="#E7A33A" font-family="IBM Plex Mono, monospace" font-size="17" letter-spacing="2">'+esc(pl.b.toUpperCase())+'</text></svg>';
+}
+
+
+/* slideshow = the 5 most recently added stories (highest ids), so it updates whenever new stories are added */
+var FXS=['fade','iris','curtain','shutter','focus'];
+var SLIDES=S.filter(function(x){return x.img;}).slice().sort(function(a,b){return b.id-a.id;}).slice(0,5).map(function(x,i){return {img:x.img,k:CATS[x.cat].n,t:strip(x.t),d:'',href:'#/story/'+x.id,fx:FXS[i],pos:'50% 40%'};});
+
+/* short updates for the sidebar, each tied to a story */
+var QUICK=[
+ {t:'Winston Taylor Photo Portrait Prize names four finalists',s:102},
+ {t:'Zanele Muholi\u2019s Hasselblad show opens in Gothenburg',s:103},
+ {t:'Paris Photo returns to the Grand Palais 12\u201315 November',s:124},
+ {t:'Jay Maisel, who shot the Kind of Blue cover, dies at 95',s:125},
+ {t:'A pit bull portrait wins the Dog Photography Awards',s:136}
+];
+
+function th(s){return '<div class="th">'+(s.img?'<img src="'+s.img+'" alt="'+esc(s.cap||s.t)+'" loading="lazy" decoding="async">':SCENE[s.id]?scene(SCENE[s.id],'Illustration: '+strip(s.t)):plate(s.plate,s.id))+'</div>';}
+function todayISO(){return new Intl.DateTimeFormat('en-CA',{timeZone:'America/Chicago',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());}
+function daysBetween(a,b){return Math.round((Date.UTC(+b.slice(0,4),+b.slice(5,7)-1,+b.slice(8,10))-Date.UTC(+a.slice(0,4),+a.slice(5,7)-1,+a.slice(8,10)))/864e5);}
+function ago(iso){var n=daysBetween(iso,todayISO());return n<=0?'Today':n===1?'Yesterday':n<8?n+' days ago':fd(iso);}
+function catn(s){return esc(CATS[s.cat].n);}
+function tc(s,withDek){return '<a class="tc" href="#/story/'+s.id+'">'+th(s)+'<span class="cat">'+catn(s)+'</span><h3>'+s.t+'</h3>'+(withDek?'<p>'+s.dek+'</p>':'')+'</a>';}
+function fi(s,big){return '<a class="fi'+(big?' big':'')+'" href="#/story/'+s.id+'">'+th(s)+'<div><div class="meta"><span class="cat">'+catn(s)+'</span><span>'+ago(s.d)+'</span><span>PortraitRaw Desk</span></div><h3>'+s.t+'</h3><p>'+s.dek+'</p></div></a>';}
+function hd(t,link,label){return '<div class="hd"><h2>'+t+'</h2>'+(link?'<a href="'+link+'">'+label+' →</a>':'')+'</div>';}
+
+function exItems(limit){
+ var t=todayISO(),rows=EX.filter(function(e){return e[4]>=t;}).map(function(e){
+  var left=daysBetween(t,e[4]),ch;
+  if(e[3]>t)ch='<span class="st new">Opens '+sd(e[3])+'</span>';
+  else if(left<=14)ch='<span class="st soon">'+(left===0?'Last day':left+' days left')+'</span>';
+  else if(daysBetween(e[3],t)<=7)ch='<span class="st new">Just opened</span>';
+  else ch='<span class="st open">Until '+fd(e[4])+'</span>';
+  var inner='<b>'+esc(e[0])+'</b><small>'+esc(e[1])+', '+esc(e[2])+'</small>'+ch;
+  return {left:left,h:e[5]?'<a class="ev" href="#/story/'+e[5]+'" style="display:block">'+inner+'</a>':'<div class="ev">'+inner+'</div>'};
+ }).sort(function(a,b){return a.left-b.left;});
+ return rows.slice(0,limit||rows.length).map(function(r){return r.h;}).join('');
+}
+function memberBox(){return '<div class="member blk"><h3>Get the morning edition</h3><p>The day’s photography news in one short email, before your first session.</p><div class="row"><input id="em" type="email" placeholder="Your email address" aria-label="Email address"><button class="btn" id="go" type="button">Subscribe</button></div><div class="msg" id="msg" role="status"></div></div>';}
+function armSub(){var b=document.getElementById('go');if(!b)return;b.onclick=function(){var v=document.getElementById('em').value.trim(),m=document.getElementById('msg');
+ if(/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)){m.style.color='#5BC48A';m.textContent='Thanks. This is a demo, so no email address was saved.';}else{m.style.color='var(--accent)';m.textContent='Enter a full email address, like name@example.com.';}};}
+function sidebar(){
+ return '<aside>'+
+ '<div class="blk">'+hd('Quick Shots')+QUICK.map(function(q){var s=byId[q.s];return '<a class="qs" href="#/story/'+s.id+'"><div><b>'+q.t+'</b><small>'+ago(s.d)+'</small></div>'+th(s)+'</a>';}).join('')+'</div>'+
+ memberBox()+
+ 
+ '</aside>';
+}
+
+var home=document.getElementById('home'),view=document.getElementById('view');
+var order=S.slice().sort(function(a,b){var pa=a.id>=101,pb=b.id>=101;if(pa!==pb)return pa?-1:1;return a.d<b.d?1:a.d>b.d?-1:a.id-b.id;});
+
+function renderHome(){
+ var six=[156,151,152,153,104,107].map(function(i){return byId[i];});
+ var feed=order;shown=Math.min(PAGE,feed.length);
+ home.innerHTML='<div class="wrap">'+
+ '<section class="show" id="show" aria-roledescription="carousel" aria-label="Featured" tabindex="0">'+
+  SLIDES.map(function(s,i){return '<div class="slide" aria-roledescription="slide" aria-label="'+(i+1)+' of '+SLIDES.length+'"><img src="'+s.img+'" alt="" style="object-position:'+s.pos+'"'+(i?' loading="lazy"':' fetchpriority="high"')+'></div>';}).join('')+
+  ''+
+  '<a class="cap" id="cap" href="#/story/2"><div class="in" aria-live="polite"></div></a>'+
+  '<div class="ctrl"><div class="dots" id="dots">'+SLIDES.map(function(s,i){return '<button type="button" aria-label="Show slide '+(i+1)+'"><i></i></button>';}).join('')+'</div><button class="arw" id="prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 5l-7 7 7 7"/></svg></button><button class="arw" id="nxt" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5l7 7-7 7"/></svg></button></div>'+
+ '</section>'+
+ '<section class="six" aria-label="Top stories">'+six.map(function(s){return tc(s);}).join('')+'</section>'+
+ '<div class="cols"><section class="feed">'+hd('The Latest','#/search','All stories')+'<div id="feedList">'+feed.slice(0,PAGE).map(function(s,i){return fi(s,i===0);}).join('')+'</div>'+(feed.length>PAGE?'<div class="moreRow" id="moreRow"><button class="moreBtn" id="moreBtn" type="button">Load more stories</button></div>':'')+'</section>'+sidebar()+'</div>'+
+ '<section class="topics">'+
+  '<div class="tb">'+hd('Awards','#/cat/awards','More')+topicList('awards')+'</div>'+
+  '<div class="tb">'+hd('Exhibitions','#/cat/exhibitions','More')+topicList('exhibitions')+'</div>'+
+  '<div class="tb">'+hd('Photographers','#/cat/people','More')+topicList('people')+'</div>'+
+ '</section></div>';
+ armSub();startShow();armFeed();
+}
+/* latest feed: 10 stories at a time, more load as the reader nears the end */
+var PAGE=10,shown=0,feedObs=null,feedArmed=false,lastLoad=Date.now();
+function loadMore(){
+ var list=document.getElementById('feedList'),row=document.getElementById('moreRow');if(!list||!row||shown>=order.length)return;
+ var next=order.slice(shown,shown+PAGE);shown+=next.length;
+ list.insertAdjacentHTML('beforeend',next.map(function(s){return fi(s,false);}).join(''));
+ if(shown>=order.length){row.innerHTML='<span class="moreEnd">You’re all caught up</span>';}
+}
+function armFeed(){
+ var row=document.getElementById('moreRow'),btn=document.getElementById('moreBtn');if(!row)return;
+ btn.onclick=loadMore;
+ if(feedArmed)return;feedArmed=true;
+ var onMove=function(){var r=document.getElementById('moreRow');if(!r||home.hidden||shown>=order.length)return;var now=Date.now();if(now-lastLoad<1400)return;if(r.getBoundingClientRect().top<window.innerHeight+80){lastLoad=now;loadMore();}};
+ ['scroll','wheel','touchmove','keydown'].forEach(function(ev){window.addEventListener(ev,onMove,{passive:true});});
+}
+function topicList(k){var l=order.filter(function(s){return s.cat===k;}).slice(0,3);return l.map(function(s,i){return i===0?'<a class="it" href="#/story/'+s.id+'">'+th(s)+'<h3>'+s.t+'</h3></a>':'<a class="it sm" href="#/story/'+s.id+'">'+th(s)+'<h3>'+s.t+'</h3></a>';}).join('');}
+
+/* slideshow: each photograph has its own transition */
+var FX={
+ fade:[{opacity:0},{opacity:1}],
+ iris:[{clipPath:'circle(0% at 50% 50%)'},{clipPath:'circle(75% at 50% 50%)'}],
+ curtain:[{clipPath:'inset(0 100% 0 0)'},{clipPath:'inset(0 0 0 0)'}],
+ shutter:[{clipPath:'inset(50% 0 50% 0)'},{clipPath:'inset(0 0 0 0)'}],
+ focus:[{opacity:0,filter:'blur(16px)',transform:'scale(1.12)'},{opacity:1,filter:'blur(0)',transform:'scale(1)'}]
+};
+var DUR={fade:1300,iris:1300,curtain:1200,shutter:1100,focus:1500};
+var showT=null,cur=-1,busy=false,paused=false,reduce=window.matchMedia('(prefers-reduced-motion:reduce)').matches,HOLD=6000,barAnim=null;
+function startShow(){
+ var el=document.getElementById('show');if(!el)return;
+ cur=-1;busy=false;go(0,true);
+ document.getElementById('nxt').onclick=function(){go(cur+1);};
+ document.getElementById('prev').onclick=function(){go(cur-1);};
+ var db=document.querySelectorAll('#dots button');for(var i=0;i<db.length;i++)(function(j){db[j].onclick=function(){go(j);};})(i);
+ el.addEventListener('mouseenter',function(){paused=true;if(barAnim)barAnim.pause();clearTimeout(showT);});
+ el.addEventListener('mouseleave',function(){paused=false;if(barAnim)barAnim.play();sched(true);});
+ el.addEventListener('keydown',function(e){if(e.key==='ArrowRight')go(cur+1);else if(e.key==='ArrowLeft')go(cur-1);});
+ var sx=null;el.addEventListener('touchstart',function(e){sx=e.touches[0].clientX;},{passive:true});
+ el.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)go(cur+(dx<0?1:-1));sx=null;});
+}
+function sched(resume){clearTimeout(showT);if(paused||!document.getElementById('show')||home.hidden)return;var left=HOLD;if(resume&&barAnim&&barAnim.currentTime)left=Math.max(400,HOLD-barAnim.currentTime);showT=setTimeout(function(){go(cur+1);},left);}
+function go(n,first){
+ var root=document.getElementById('show');if(!root||busy)return;
+ var sl=root.querySelectorAll('.slide'),N=sl.length;n=(n+N)%N;if(n===cur)return;
+ var prev=cur>=0?sl[cur]:null,next=sl[n],s=SLIDES[n],im=next.querySelector('img');busy=true;
+ if(im.getAnimations)im.getAnimations().forEach(function(a){a.cancel();});
+ for(var i=0;i<N;i++){sl[i].classList.remove('out');if(sl[i]!==prev&&sl[i]!==next)sl[i].classList.remove('on');}
+ if(prev){prev.classList.remove('on');prev.classList.add('out');}
+ next.classList.add('on');
+ var cap=document.getElementById('cap');cap.classList.remove('live');cap.setAttribute('href',s.href);
+ cap.querySelector('.in').innerHTML='<span class="kick t">'+esc(s.k)+'</span><h2 class="t">'+s.t+'</h2><p class="t">'+s.d+'</p>';
+ requestAnimationFrame(function(){requestAnimationFrame(function(){cap.classList.add('live');});});
+ var db=document.querySelectorAll('#dots button');for(var d=0;d<db.length;d++){db[d].classList.toggle('done',d<n);var bi=db[d].querySelector('i');if(bi.getAnimations)bi.getAnimations().forEach(function(a){a.cancel();});}
+ var done=function(){if(prev)prev.classList.remove('out');busy=false;};
+ if(!next.animate){done();}
+ else if(reduce){next.animate([{opacity:0},{opacity:1}],{duration:first?0:300}).onfinish=done;}
+ else{
+  var dur=first?800:DUR[s.fx];
+  next.animate(first?FX.fade:FX[s.fx],{duration:dur,easing:'cubic-bezier(.65,.05,.25,1)'}).onfinish=done;
+  im.animate([{transform:'scale(1)'},{transform:'scale(1.07)'}],{duration:HOLD+dur+400,easing:'linear',fill:'forwards'});
+  if(prev&&s.fx!=='focus')prev.querySelector('img').animate([{filter:'brightness(1)'},{filter:'brightness(.5)'}],{duration:dur,fill:'forwards'});
+ }
+ var bar=db[n]&&db[n].querySelector('i');
+ barAnim=bar&&bar.animate?bar.animate([{transform:'scaleX(0)'},{transform:'scaleX(1)'}],{duration:HOLD,easing:'linear',fill:'forwards'}):null;
+ if(paused&&barAnim)barAnim.pause();
+ cur=n;sched();
+}
+
+var SITE='https://portraitraw.com/';
+function shareUrl(s){return SITE+'story/'+s.id+'.html';}
+function shareBar(s){var u=shareUrl(s),t=strip(s.t);
+ return '<span class="shr"><a class="shb wa" href="https://wa.me/?text='+encodeURIComponent(t+' '+u)+'" target="_blank" rel="noopener" aria-label="Share on WhatsApp"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.8-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>WhatsApp</a><button type="button" class="shb cp" data-url="'+u+'" data-t="'+esc(t)+'">Share link</button></span>';}
+document.addEventListener('click',function(e){var b=e.target.closest&&e.target.closest('.shb.cp');if(!b)return;var u=b.getAttribute('data-url'),t=b.getAttribute('data-t');
+ function done(){b.textContent='Link copied';setTimeout(function(){b.textContent='Share link';},1800);}
+ try{if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});return;}}catch(err){}
+ try{navigator.clipboard.writeText(u).then(done,function(){prompt('Copy link',u);});}catch(err){}
+});
+function story(s){
+ var hero='<figure class="hero"><div class="th">'+(s.img?'<img class="zoom" src="'+s.img+'" alt="'+esc(s.cap||s.t)+'" data-cap="'+esc(s.cap||'')+'">':(SCENE[s.id]?scene(SCENE[s.id],'Illustration: '+strip(s.t)):plate(s.plate,s.id)))+'</div><figcaption>'+(s.img?esc(s.cap||''):'Illustration by PortraitRaw')+'</figcaption></figure>';
+ var specs=s.specs?'<div class="specs">'+s.specs.map(function(x){return '<span><small>'+x[0]+'</small>'+x[1]+'</span>';}).join('')+'</div>':'';
+ var gal=s.gal?'<h3 class="galh">Photo gallery</h3><div class="gal">'+s.gal.map(function(g){return '<figure><button type="button" class="zoomb" data-src="'+g[0]+'" data-cap="'+esc(g[1])+'" aria-label="Open photo: '+esc(g[1])+'"><img src="'+g[0]+'" alt="'+esc(g[1])+'" loading="lazy"></button><figcaption>'+g[1]+'</figcaption></figure>';}).join('')+'</div>':'';
+ var src=s.src?'Summary of reporting by '+s.src.map(function(x){return '<a href="'+x[1]+'" target="_blank" rel="noopener">'+x[0]+'</a>';}).join(', ')+'. Written in our own words; follow the links for the original coverage.':'';
+ var rel=order.filter(function(x){return x.id!==s.id;}).slice(0,5);
+ view.innerHTML='<div class="wrap"><div class="acols"><article><div class="ahead"><a class="back" href="#/">← News</a><div class="meta"><span class="cat">'+s.tags.join(' · ')+'</span></div><h1>'+s.t+'</h1><p class="dek">'+s.dek+'</p></div>'+
+ '<div class="by"><span class="av" aria-hidden="true">PR</span><span><b>PortraitRaw Desk</b><br>'+fd(s.d)+'</span>'+shareBar(s)+'</div>'+hero+
+ '<div class="abody">'+specs+s.p.map(function(x){return x.indexOf('<figure')===0?x:'<p>'+x+'</p>';}).join('')+(s.take?'<div class="take"><b>Why it matters</b><p>'+s.take+'</p></div>':'')+gal+'<p class="src">'+(s.note||src)+'</p></div></article>'+
+ '<aside><div class="blk">'+hd('The Latest')+rel.map(function(r){return '<a class="qs" href="#/story/'+r.id+'"><div><b>'+r.t+'</b><small>'+catn(r)+' · '+ago(r.d)+'</small></div>'+th(r)+'</a>';}).join('')+'</div>'+memberBox()+'</aside></div></div>';
+ armSub();
+}
+function cat(k){var c=CATS[k],list=order.filter(function(s){return s.cat===k;});
+ view.innerHTML='<div class="wrap"><div class="pagehead"><span class="cat">'+list.length+' '+(list.length===1?'story':'stories')+'</span><h1>'+esc(c.n)+'</h1><p>'+c.d+'</p></div>'+
+ (k==='exhibitions'?'<div style="max-width:720px;padding-top:24px">'+hd('On View')+exItems()+'</div>':'')+
+ (list.length?'<section class="grid">'+list.map(function(s){return tc(s,true);}).join('')+'</section>':'<p class="empty">No stories in this section yet.</p>')+'</div>';}
+
+function search(){
+ view.innerHTML='<div class="wrap"><div class="pagehead"><h1>Search</h1></div><div class="sbox"><input id="q" type="search" placeholder="Search a lens, a city, a photographer…" aria-label="Search stories"></div><section class="grid" id="res"></section></div>';
+ var q=document.getElementById('q'),r=document.getElementById('res');
+ function go2(){var t=q.value.toLowerCase().trim(),out=order.filter(function(s){return !t||strip(s.t+' '+s.dek+' '+s.tags.join(' ')+' '+s.p.join(' ')).toLowerCase().indexOf(t)>-1;});
+  r.innerHTML=out.length?out.map(function(s){return tc(s,true);}).join(''):'<p class="empty" style="grid-column:1/-1">No stories match “'+esc(q.value)+'”. Try a lens, a city or a photographer’s name.</p>';}
+ q.oninput=go2;go2();q.focus();
+}
+function sub(){view.innerHTML='<div class="wrap"><div class="pagehead"><span class="cat">Newsletter</span><h1>The morning edition</h1><p>A short email with the day’s photography news.</p></div><div class="subbox"><ul><li>Five stories, five minutes to read</li><li>Exhibitions closing this week</li><li>Unsubscribe at any time</li></ul><div class="row"><input id="em" type="email" placeholder="Your email address" aria-label="Email address"><button class="btn" id="go" type="button">Subscribe</button></div><div class="msg" id="msg" role="status"></div></div></div>';armSub();}
+function contact(){
+ view.innerHTML='<div class="wrap"><div class="pagehead"><span class="cat">Get in touch</span><h1>Contact</h1><p>A story tip, an exhibition to list or an advertising question. Send a message and we will reply on WhatsApp.</p></div><div class="ct one">'+
+ '<form id="cf" novalidate>'+
+ '<div class="fg"><label for="cn">Name</label><input id="cn" name="name" autocomplete="name" maxlength="80"><div class="er2">Enter your name.</div></div>'+
+ '<div class="fg"><label for="cp">Phone</label><input id="cp" name="phone" type="tel" autocomplete="tel" maxlength="30" placeholder="+1 555 123 4567"><div class="er2">Enter a phone number with at least 7 digits.</div></div>'+
+ '<div class="fg"><label for="cm">Message</label><textarea id="cm" name="message" maxlength="1000"></textarea><div class="er2">Write a message.</div></div>'+
+ '<button class="btn" type="submit">Continue on WhatsApp</button><p class="meta" style="margin-top:12px">WhatsApp opens with your message filled in. Tap send there to deliver it.</p><div class="ok" id="cok" role="status"></div></form><div class="addr"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg><div><b>Address</b><address>One Maritime Plaza<br>300 Clay St, Suite 455<br>San Francisco, CA 94111</address></div><a class="map" id="mapl" href="https://www.google.com/maps/search/?api=1&query=One+Maritime+Plaza+300+Clay+St+Suite+455+San+Francisco+CA+94111" target="_blank" rel="noopener" aria-label="Open address in Maps"><span class="mapfb"><svg viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path fill="currentColor" d="M12 2a7.5 7.5 0 0 0-7.5 7.5C4.5 15.1 12 22 12 22s7.5-6.9 7.5-12.5A7.5 7.5 0 0 0 12 2zm0 10.2a2.7 2.7 0 1 1 0-5.4 2.7 2.7 0 0 1 0 5.4z"/></svg>San Francisco, CA</span><iframe title="Map: One Maritime Plaza, San Francisco" src="https://www.google.com/maps?q=One+Maritime+Plaza,+300+Clay+St,+San+Francisco,+CA+94111&z=16&output=embed" loading="lazy" tabindex="-1" referrerpolicy="no-referrer-when-downgrade"></iframe><span class="mapcta">Open in Maps ↗</span></a></div></div></div>';
+ try{if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)&&('ontouchend' in document||/iPhone|iPod/.test(navigator.userAgent))){document.getElementById('mapl').href='https://maps.apple.com/?q=One+Maritime+Plaza&address=300+Clay+St+Suite+455,+San+Francisco,+CA+94111';}}catch(err){}
+ var f=document.getElementById('cf');
+ f.addEventListener('submit',function(e){e.preventDefault();
+  var n=f.name.value.trim(),ph=f.phone.value.trim(),m=f.message.value.trim(),ok=true;
+  function chk(el,good){el.parentNode.classList.toggle('bad',!good);if(!good&&ok){el.focus();ok=false;}}
+  chk(f.name,n.length>0);chk(f.phone,/^[+()\d\s.-]{7,}$/.test(ph)&&ph.replace(/\D/g,'').length>=7);chk(f.message,m.length>0);
+  if(!ok)return;
+  var url='https://wa.me/'+WA+'?text='+encodeURIComponent('Hello! New message from the PortraitRaw website (portraitraw.com).\n\nName: '+n+'\nPhone: '+ph+'\nMessage: '+m);
+  var c=document.getElementById('cok');c.className='ok on';
+  c.innerHTML='Your message is ready. <a href="'+url+'" target="_blank" rel="noopener">Open WhatsApp to send it</a>.';
+ });
+ f.addEventListener('input',function(e){if(e.target.value.trim())e.target.parentNode.classList.remove('bad');});
+}
+
+var links=document.querySelectorAll('nav.main a');
+function route(){
+ var h=location.hash||'#/',m=h.match(/^#\/story\/(\d+)/),c=h.match(/^#\/cat\/([\w-]+)/),v='x',cr=h,t='PortraitRaw';
+ if(m&&byId[m[1]]){story(byId[m[1]]);cr='#/cat/'+byId[m[1]].cat;t=strip(byId[m[1]].t)+' | PortraitRaw';}
+ else if(c&&CATS[c[1]]){cat(c[1]);t=CATS[c[1]].n+' | PortraitRaw';}
+
+ else if(h==='#/subscribe'){sub();t='Newsletter | PortraitRaw';}
+ else if(h==='#/search'){search();t='Search | PortraitRaw';}
+ else if(h==='#/contact'){contact();t='Contact | PortraitRaw';}
+ else {v='home';cr='#/';}
+ var wasHidden=home.hidden;
+ home.hidden=v!=='home';view.hidden=v==='home';document.title=t;
+ if(v!=='home')clearTimeout(showT);else if(wasHidden){paused=false;sched();}
+ for(var i=0;i<links.length;i++)links[i].classList.toggle('on',links[i].getAttribute('href')===cr);
+ if(h!=='#/search')window.scrollTo(0,0);
+}
+
+/* theme toggle */
+var tb=document.getElementById('theme'),rootEl=document.documentElement;
+function isDark(){var a=rootEl.getAttribute('data-theme');return a?a==='dark':window.matchMedia('(prefers-color-scheme:dark)').matches;}
+function setTheme(d){rootEl.setAttribute('data-theme',d?'dark':'light');tb.setAttribute('aria-label',d?'Switch to light mode':'Switch to dark mode');try{localStorage.setItem('pr-theme',d?'dark':'light');}catch(e){}}
+try{var saved=localStorage.getItem('pr-theme');if(saved)setTheme(saved==='dark');}catch(e){}
+tb.onclick=function(){setTheme(!isDark());};
+
+var lb=null,lastFocus=null;
+function openLB(src,cap){
+ if(lb)return;lastFocus=document.activeElement;
+ lb=document.createElement('div');lb.className='lb';lb.setAttribute('role','dialog');lb.setAttribute('aria-modal','true');lb.setAttribute('aria-label','Photo viewer');
+ lb.innerHTML='<button type="button" id="lbx">Close</button><img src="'+src+'" alt="'+esc(cap)+'"><p>'+esc(cap)+'</p>';
+ document.body.appendChild(lb);rootEl.classList.add('lock');
+ requestAnimationFrame(function(){lb.classList.add('on');});document.getElementById('lbx').focus();
+}
+function closeLB(){if(!lb)return;var x=lb;lb=null;x.classList.remove('on');rootEl.classList.remove('lock');setTimeout(function(){x.remove();},300);if(lastFocus&&lastFocus.focus)lastFocus.focus();}
+document.addEventListener('click',function(e){
+ if(lb){closeLB();return;}
+ var b=e.target.closest&&e.target.closest('.zoomb');if(b){openLB(b.getAttribute('data-src'),b.getAttribute('data-cap'));return;}
+ var z=e.target.closest&&e.target.closest('img.zoom');if(z){openLB(z.getAttribute('src'),z.getAttribute('data-cap')||z.alt);}
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLB();});
+window.addEventListener('hashchange',function(){if(lb){var x=lb;lb=null;x.remove();rootEl.classList.remove('lock');}});
+document.addEventListener('visibilitychange',function(){if(document.hidden)clearTimeout(showT);else if(!paused)sched();});
+
+renderHome();
+window.addEventListener('hashchange',route);route();
+})();
+</script>
+
+</body>
+</html>

@@ -915,10 +915,10 @@ function sidebar(){
 }
 
 var home=document.getElementById('home'),view=document.getElementById('view');
-var order=S.slice().sort(function(a,b){var pa=a.id>=101,pb=b.id>=101;if(pa!==pb)return pa?-1:1;return a.d<b.d?1:a.d>b.d?-1:a.id-b.id;});
+var order=S.slice().sort(function(a,b){var pa=a.id>=101,pb=b.id>=101;if(pa!==pb)return pa?-1:1;return a.d<b.d?1:a.d>b.d?-1:b.id-a.id;});
 
 function renderHome(){
- var six=[156,151,152,153,104,107].map(function(i){return byId[i];});
+ var six=S.filter(function(x){return x.img;}).slice().sort(function(a,b){return b.id-a.id;}).slice(0,6);
  var feed=order;shown=Math.min(PAGE,feed.length);
  home.innerHTML='<div class="wrap">'+
  '<section class="show" id="show" aria-roledescription="carousel" aria-label="Featured" tabindex="0">'+

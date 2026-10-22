@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="description" content="Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.">
-<meta property="og:site_name" content="PortraitRaw">
+<meta property="og:site_name" content="Portrait RAW">
 <meta property="og:type" content="website">
-<meta property="og:title" content="PortraitRaw · Daily photography news">
+<meta property="og:title" content="Portrait RAW · Daily photography news">
 <meta property="og:description" content="Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.">
 <meta property="og:url" content="https://portraitraw.com/">
 <meta property="og:image" content="https://portraitraw.com/og/portraitraw.jpg">
@@ -15,12 +15,22 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PortraitRaw · Daily photography news">
+<meta name="twitter:title" content="Portrait RAW · Daily photography news">
 <meta name="twitter:description" content="Daily photography news, with a focus on portraits: awards, exhibitions, photographers and the gear behind them.">
 <meta name="twitter:image" content="https://portraitraw.com/og/portraitraw.jpg">
-<link rel="icon" href="/og/icon.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"PortraitRaw","url":"https://portraitraw.com/","logo":"https://portraitraw.com/og/icon.png","address":{"@type":"PostalAddress","streetAddress":"One Maritime Plaza, 300 Clay St, Suite 455","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94111","addressCountry":"US"}}</script>
-<title>PortraitRaw</title>
+<link rel="icon" href="/favicon.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Portrait RAW",
+  "alternateName": ["Portrait RAW", "PortraitRaw", "portraitraw.com"],
+  "url": "https://portraitraw.com/"
+}
+</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsMediaOrganization","name":"Portrait RAW","url":"https://portraitraw.com/","logo":"https://portraitraw.com/og/icon.png","address":{"@type":"PostalAddress","streetAddress":"One Maritime Plaza, 300 Clay St, Suite 455","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94111","addressCountry":"US"}}</script>
+<title>Portrait RAW · Daily photography news</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1060,13 +1070,13 @@ function contact(){
 
 var links=document.querySelectorAll('nav.main a');
 function route(){
- var h=location.hash||'#/',m=h.match(/^#\/story\/(\d+)/),c=h.match(/^#\/cat\/([\w-]+)/),v='x',cr=h,t='PortraitRaw';
- if(m&&byId[m[1]]){story(byId[m[1]]);cr='#/cat/'+byId[m[1]].cat;t=strip(byId[m[1]].t)+' | PortraitRaw';}
- else if(c&&CATS[c[1]]){cat(c[1]);t=CATS[c[1]].n+' | PortraitRaw';}
+ var h=location.hash||'#/',m=h.match(/^#\/story\/(\d+)/),c=h.match(/^#\/cat\/([\w-]+)/),v='x',cr=h,t='Portrait RAW · Daily photography news';
+ if(m&&byId[m[1]]){story(byId[m[1]]);cr='#/cat/'+byId[m[1]].cat;t=strip(byId[m[1]].t)+' | Portrait RAW';}
+ else if(c&&CATS[c[1]]){cat(c[1]);t=CATS[c[1]].n+' | Portrait RAW';}
 
- else if(h==='#/subscribe'){sub();t='Newsletter | PortraitRaw';}
- else if(h==='#/search'){search();t='Search | PortraitRaw';}
- else if(h==='#/contact'){contact();t='Contact | PortraitRaw';}
+ else if(h==='#/subscribe'){sub();t='Newsletter | Portrait RAW';}
+ else if(h==='#/search'){search();t='Search | Portrait RAW';}
+ else if(h==='#/contact'){contact();t='Contact | Portrait RAW';}
  else {v='home';cr='#/';}
  var wasHidden=home.hidden;
  home.hidden=v!=='home';view.hidden=v==='home';document.title=t;
